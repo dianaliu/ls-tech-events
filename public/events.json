@@ -1,0 +1,2381 @@
+{
+    "next_cursor": 0,
+    "next_cursor_str": "0",
+    "previous_cursor": 0,
+    "previous_cursor_str": "0",
+    "users": [
+        {
+            "contributors_enabled": false,
+            "created_at": "Mon Nov 18 21:12:34 +0000 2013",
+            "default_profile": false,
+            "default_profile_image": false,
+            "description": "Join Craft to learn which tools, methods, practices should be part of the toolbox of a modern developer/company, and to have a compass on new trends and topics.",
+            "entities": {
+                "description": {
+                    "urls": []
+                },
+                "url": {
+                    "urls": [
+                        {
+                            "display_url": "craft-conf.com/2014/",
+                            "expanded_url": "http://craft-conf.com/2014/",
+                            "indices": [
+                                0,
+                                22
+                            ],
+                            "url": "http://t.co/tAcccTEoei"
+                        }
+                    ]
+                }
+            },
+            "favourites_count": 63,
+            "follow_request_sent": false,
+            "followers_count": 453,
+            "following": false,
+            "friends_count": 48,
+            "geo_enabled": false,
+            "id": 2201991409,
+            "id_str": "2201991409",
+            "is_translation_enabled": false,
+            "is_translator": false,
+            "lang": "en",
+            "listed_count": 16,
+            "location": "Budapest, Hungary April 23-25",
+            "name": "Craft Conference",
+            "notifications": false,
+            "profile_background_color": "E9E7C5",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/378800000824012775/97bb1d972974a336814f088a932add3f_normal.png",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/378800000824012775/97bb1d972974a336814f088a932add3f_normal.png",
+            "profile_link_color": "E85A32",
+            "profile_sidebar_border_color": "FFFFFF",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": false,
+            "protected": false,
+            "screen_name": "CraftConf",
+            "status": {
+                "contributors": null,
+                "coordinates": null,
+                "created_at": "Mon Jan 27 17:47:46 +0000 2014",
+                "entities": {
+                    "hashtags": [
+                        {
+                            "indices": [
+                                102,
+                                113
+                            ],
+                            "text": "continuous"
+                        },
+                        {
+                            "indices": [
+                                114,
+                                123
+                            ],
+                            "text": "delivery"
+                        },
+                        {
+                            "indices": [
+                                124,
+                                130
+                            ],
+                            "text": "build"
+                        },
+                        {
+                            "indices": [
+                                131,
+                                136
+                            ],
+                            "text": "farm"
+                        }
+                    ],
+                    "symbols": [],
+                    "urls": [],
+                    "user_mentions": [
+                        {
+                            "id": 2173087866,
+                            "id_str": "2173087866",
+                            "indices": [
+                                50,
+                                57
+                            ],
+                            "name": "Stas Zvinyatskovsky",
+                            "screen_name": "staszv"
+                        },
+                        {
+                            "id": 2201991409,
+                            "id_str": "2201991409",
+                            "indices": [
+                                75,
+                                85
+                            ],
+                            "name": "Craft Conference",
+                            "screen_name": "CraftConf"
+                        },
+                        {
+                            "id": 19380829,
+                            "id_str": "19380829",
+                            "indices": [
+                                95,
+                                101
+                            ],
+                            "name": "Yahoo",
+                            "screen_name": "Yahoo"
+                        }
+                    ]
+                },
+                "favorite_count": 0,
+                "favorited": false,
+                "geo": null,
+                "id": 427860499087097856,
+                "id_str": "427860499087097856",
+                "in_reply_to_screen_name": null,
+                "in_reply_to_status_id": null,
+                "in_reply_to_status_id_str": null,
+                "in_reply_to_user_id": null,
+                "in_reply_to_user_id_str": null,
+                "lang": "en",
+                "place": null,
+                "retweet_count": 0,
+                "retweeted": false,
+                "source": "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
+                "text": "We are happy to announce that Stas Zvinyatskovsky @staszv joined us Follow @CraftConf for more @Yahoo #continuous #delivery #build #farm",
+                "truncated": false
+            },
+            "statuses_count": 171,
+            "time_zone": null,
+            "url": "http://t.co/tAcccTEoei",
+            "utc_offset": null,
+            "verified": false
+        },
+        {
+            "contributors_enabled": false,
+            "created_at": "Fri Nov 08 19:50:18 +0000 2013",
+            "default_profile": false,
+            "default_profile_image": false,
+            "description": "Coders, designers, nonprofits, thought leaders, and tech companies coming together to Code for Good. Launching MLK Weekend 2014. Powered by @CodeMontage.",
+            "entities": {
+                "description": {
+                    "urls": []
+                },
+                "url": {
+                    "urls": [
+                        {
+                            "display_url": "coderdayofservice.com",
+                            "expanded_url": "http://coderdayofservice.com",
+                            "indices": [
+                                0,
+                                22
+                            ],
+                            "url": "http://t.co/ZPay3TiKuk"
+                        }
+                    ]
+                }
+            },
+            "favourites_count": 104,
+            "follow_request_sent": false,
+            "followers_count": 177,
+            "following": false,
+            "friends_count": 224,
+            "geo_enabled": false,
+            "id": 2182822986,
+            "id_str": "2182822986",
+            "is_translation_enabled": false,
+            "is_translator": false,
+            "lang": "en",
+            "listed_count": 10,
+            "location": "New York, NY",
+            "name": "Coder Day of Service",
+            "notifications": false,
+            "profile_background_color": "1AACBC",
+            "profile_background_image_url": "http://a0.twimg.com/profile_background_images/378800000123608569/7f3d532883645fb1c69098701eb2575e.png",
+            "profile_background_image_url_https": "https://si0.twimg.com/profile_background_images/378800000123608569/7f3d532883645fb1c69098701eb2575e.png",
+            "profile_background_tile": true,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/378800000789548333/d7fdf53c51b49e8018812f7d52451f71_normal.png",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/378800000789548333/d7fdf53c51b49e8018812f7d52451f71_normal.png",
+            "profile_link_color": "1AACBC",
+            "profile_sidebar_border_color": "000000",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "protected": false,
+            "screen_name": "CoderDay",
+            "status": {
+                "contributors": null,
+                "coordinates": null,
+                "created_at": "Mon Jan 27 00:32:35 +0000 2014",
+                "entities": {
+                    "hashtags": [
+                        {
+                            "indices": [
+                                32,
+                                41
+                            ],
+                            "text": "CoderDay"
+                        },
+                        {
+                            "indices": [
+                                104,
+                                119
+                            ],
+                            "text": "CodeGoodSunday"
+                        }
+                    ],
+                    "symbols": [],
+                    "urls": [],
+                    "user_mentions": [
+                        {
+                            "id": 23584962,
+                            "id_str": "23584962",
+                            "indices": [
+                                3,
+                                10
+                            ],
+                            "name": "Vanessa Hurst",
+                            "screen_name": "DBNess"
+                        },
+                        {
+                            "id": 920224928,
+                            "id_str": "920224928",
+                            "indices": [
+                                124,
+                                136
+                            ],
+                            "name": "CodeMontage",
+                            "screen_name": "CodeMontage"
+                        },
+                        {
+                            "id": 158065720,
+                            "id_str": "158065720",
+                            "indices": [
+                                137,
+                                140
+                            ],
+                            "name": "Saron Yitbarek",
+                            "screen_name": "saronyitbarek"
+                        }
+                    ]
+                },
+                "favorite_count": 0,
+                "favorited": false,
+                "geo": null,
+                "id": 427599983542800384,
+                "id_str": "427599983542800384",
+                "in_reply_to_screen_name": null,
+                "in_reply_to_status_id": null,
+                "in_reply_to_status_id_str": null,
+                "in_reply_to_user_id": null,
+                "in_reply_to_user_id_str": null,
+                "lang": "en",
+                "place": null,
+                "retweet_count": 7,
+                "retweeted": false,
+                "retweeted_status": {
+                    "contributors": null,
+                    "coordinates": null,
+                    "created_at": "Sun Jan 26 22:43:18 +0000 2014",
+                    "entities": {
+                        "hashtags": [
+                            {
+                                "indices": [
+                                    20,
+                                    29
+                                ],
+                                "text": "CoderDay"
+                            },
+                            {
+                                "indices": [
+                                    92,
+                                    107
+                                ],
+                                "text": "CodeGoodSunday"
+                            }
+                        ],
+                        "symbols": [],
+                        "urls": [],
+                        "user_mentions": [
+                            {
+                                "id": 920224928,
+                                "id_str": "920224928",
+                                "indices": [
+                                    112,
+                                    124
+                                ],
+                                "name": "CodeMontage",
+                                "screen_name": "CodeMontage"
+                            },
+                            {
+                                "id": 158065720,
+                                "id_str": "158065720",
+                                "indices": [
+                                    125,
+                                    139
+                                ],
+                                "name": "Saron Yitbarek",
+                                "screen_name": "saronyitbarek"
+                            }
+                        ]
+                    },
+                    "favorite_count": 5,
+                    "favorited": false,
+                    "geo": null,
+                    "id": 427572481705013249,
+                    "id_str": "427572481705013249",
+                    "in_reply_to_screen_name": null,
+                    "in_reply_to_status_id": null,
+                    "in_reply_to_status_id_str": null,
+                    "in_reply_to_user_id": null,
+                    "in_reply_to_user_id_str": null,
+                    "lang": "en",
+                    "place": null,
+                    "retweet_count": 7,
+                    "retweeted": false,
+                    "source": "web",
+                    "text": "Pumped for the post #CoderDay progress happening in dev living rooms across the country for #CodeGoodSunday! cc @CodeMontage @saronyitbarek",
+                    "truncated": false
+                },
+                "source": "<a href=\"http://bufferapp.com\" rel=\"nofollow\">Buffer</a>",
+                "text": "RT @DBNess: Pumped for the post #CoderDay progress happening in dev living rooms across the country for #CodeGoodSunday! cc @CodeMontage @s\u2026",
+                "truncated": false
+            },
+            "statuses_count": 250,
+            "time_zone": null,
+            "url": "http://t.co/ZPay3TiKuk",
+            "utc_offset": null,
+            "verified": false
+        },
+        {
+            "contributors_enabled": false,
+            "created_at": "Mon Oct 15 12:49:59 +0000 2012",
+            "default_profile": true,
+            "default_profile_image": false,
+            "description": "A Conference for People doing Big Things with Ruby in Dallas, TX. Feb 20-21, 2014",
+            "entities": {
+                "description": {
+                    "urls": []
+                },
+                "url": {
+                    "urls": [
+                        {
+                            "display_url": "bigrubyconf.com",
+                            "expanded_url": "http://bigrubyconf.com",
+                            "indices": [
+                                0,
+                                22
+                            ],
+                            "url": "http://t.co/we90N5jmBV"
+                        }
+                    ]
+                }
+            },
+            "favourites_count": 1,
+            "follow_request_sent": false,
+            "followers_count": 202,
+            "following": false,
+            "friends_count": 2,
+            "geo_enabled": false,
+            "id": 882257671,
+            "id_str": "882257671",
+            "is_translation_enabled": false,
+            "is_translator": false,
+            "lang": "en",
+            "listed_count": 16,
+            "location": "Dallas, TX",
+            "name": "Big Ruby Conf",
+            "notifications": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/3032105537/e4e73b4fedde6cd2b0bbb04fbce8cdb4_normal.png",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/3032105537/e4e73b4fedde6cd2b0bbb04fbce8cdb4_normal.png",
+            "profile_link_color": "0084B4",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "protected": false,
+            "screen_name": "BigRubyConf",
+            "status": {
+                "contributors": null,
+                "coordinates": null,
+                "created_at": "Thu Jan 23 04:36:59 +0000 2014",
+                "entities": {
+                    "hashtags": [],
+                    "symbols": [],
+                    "urls": [],
+                    "user_mentions": [
+                        {
+                            "id": 17025247,
+                            "id_str": "17025247",
+                            "indices": [
+                                0,
+                                13
+                            ],
+                            "name": "Bonnie Mattson",
+                            "screen_name": "kitsunetsuki"
+                        }
+                    ]
+                },
+                "favorite_count": 0,
+                "favorited": false,
+                "geo": null,
+                "id": 426211939304222720,
+                "id_str": "426211939304222720",
+                "in_reply_to_screen_name": "kitsunetsuki",
+                "in_reply_to_status_id": 426030850602328064,
+                "in_reply_to_status_id_str": "426030850602328064",
+                "in_reply_to_user_id": 17025247,
+                "in_reply_to_user_id_str": "17025247",
+                "lang": "en",
+                "place": null,
+                "retweet_count": 0,
+                "retweeted": false,
+                "source": "<a href=\"http://itunes.apple.com/us/app/twitter/id409789998?mt=12\" rel=\"nofollow\">Twitter for Mac</a>",
+                "text": "@kitsunetsuki Sorry for the delay. Emails are away!",
+                "truncated": false
+            },
+            "statuses_count": 141,
+            "time_zone": "Eastern Time (US & Canada)",
+            "url": "http://t.co/we90N5jmBV",
+            "utc_offset": -18000,
+            "verified": false
+        },
+        {
+            "contributors_enabled": false,
+            "created_at": "Mon Aug 27 18:30:00 +0000 2012",
+            "default_profile": true,
+            "default_profile_image": false,
+            "description": "February 21-22, 2014 at MMOCA in Madison, WI - A conference about mobile development (iOS, Android, Windows Phone, & Mobile Web).",
+            "entities": {
+                "description": {
+                    "urls": []
+                },
+                "url": {
+                    "urls": [
+                        {
+                            "display_url": "snow-mobile.org",
+                            "expanded_url": "http://snow-mobile.org",
+                            "indices": [
+                                0,
+                                22
+                            ],
+                            "url": "http://t.co/NV1k0xpjmC"
+                        }
+                    ]
+                }
+            },
+            "favourites_count": 33,
+            "follow_request_sent": false,
+            "followers_count": 255,
+            "following": false,
+            "friends_count": 88,
+            "geo_enabled": true,
+            "id": 785227261,
+            "id_str": "785227261",
+            "is_translation_enabled": false,
+            "is_translator": false,
+            "lang": "en",
+            "listed_count": 15,
+            "location": "Madison, WI",
+            "name": "Snow*Mobile Conf",
+            "notifications": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/378800000516133360/c49dfa2d8e7fc383a91cd9eb48bcd7a1_normal.png",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/378800000516133360/c49dfa2d8e7fc383a91cd9eb48bcd7a1_normal.png",
+            "profile_link_color": "0084B4",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "protected": false,
+            "screen_name": "SnowMobileConf",
+            "status": {
+                "contributors": null,
+                "coordinates": null,
+                "created_at": "Mon Jan 27 22:29:15 +0000 2014",
+                "entities": {
+                    "hashtags": [],
+                    "symbols": [],
+                    "urls": [],
+                    "user_mentions": [
+                        {
+                            "id": 18295618,
+                            "id_str": "18295618",
+                            "indices": [
+                                3,
+                                14
+                            ],
+                            "name": "Marcy Capron",
+                            "screen_name": "marcymarcy"
+                        }
+                    ]
+                },
+                "favorite_count": 0,
+                "favorited": false,
+                "geo": null,
+                "id": 427931336813596672,
+                "id_str": "427931336813596672",
+                "in_reply_to_screen_name": null,
+                "in_reply_to_status_id": null,
+                "in_reply_to_status_id_str": null,
+                "in_reply_to_user_id": null,
+                "in_reply_to_user_id_str": null,
+                "lang": "en",
+                "place": null,
+                "retweet_count": 3,
+                "retweeted": false,
+                "retweeted_status": {
+                    "contributors": null,
+                    "coordinates": null,
+                    "created_at": "Mon Jan 27 21:51:59 +0000 2014",
+                    "entities": {
+                        "hashtags": [],
+                        "symbols": [],
+                        "urls": [],
+                        "user_mentions": []
+                    },
+                    "favorite_count": 0,
+                    "favorited": false,
+                    "geo": null,
+                    "id": 427921954897539072,
+                    "id_str": "427921954897539072",
+                    "in_reply_to_screen_name": null,
+                    "in_reply_to_status_id": null,
+                    "in_reply_to_status_id_str": null,
+                    "in_reply_to_user_id": null,
+                    "in_reply_to_user_id_str": null,
+                    "lang": "en",
+                    "place": null,
+                    "retweet_count": 3,
+                    "retweeted": false,
+                    "source": "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
+                    "text": "Do I know any iOS freelancers looking for gigs?",
+                    "truncated": false
+                },
+                "source": "<a href=\"http://www.hootsuite.com\" rel=\"nofollow\">HootSuite</a>",
+                "text": "RT @marcymarcy: Do I know any iOS freelancers looking for gigs?",
+                "truncated": false
+            },
+            "statuses_count": 1195,
+            "time_zone": "Central Time (US & Canada)",
+            "url": "http://t.co/NV1k0xpjmC",
+            "utc_offset": -21600,
+            "verified": false
+        },
+        {
+            "contributors_enabled": false,
+            "created_at": "Mon Aug 20 15:58:08 +0000 2012",
+            "default_profile": false,
+            "default_profile_image": false,
+            "description": "The iOS app makers' conference. \r\nOrganized and run by app makers. \r\nWe make apps. \r\nJoin us!",
+            "entities": {
+                "description": {
+                    "urls": []
+                },
+                "url": {
+                    "urls": [
+                        {
+                            "display_url": "renaissance.io",
+                            "expanded_url": "http://renaissance.io",
+                            "indices": [
+                                0,
+                                22
+                            ],
+                            "url": "http://t.co/FVP59G2E4A"
+                        }
+                    ]
+                }
+            },
+            "favourites_count": 2,
+            "follow_request_sent": false,
+            "followers_count": 372,
+            "following": false,
+            "friends_count": 493,
+            "geo_enabled": false,
+            "id": 769762994,
+            "id_str": "769762994",
+            "is_translation_enabled": false,
+            "is_translator": false,
+            "lang": "en",
+            "listed_count": 17,
+            "location": "San Francisco, CA",
+            "name": "Renaissance",
+            "notifications": false,
+            "profile_background_color": "2B3C68",
+            "profile_background_image_url": "http://a0.twimg.com/profile_background_images/740113691/fd6510983580bf50563c3d07f0ec3103.jpeg",
+            "profile_background_image_url_https": "https://si0.twimg.com/profile_background_images/740113691/fd6510983580bf50563c3d07f0ec3103.jpeg",
+            "profile_background_tile": false,
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/769762994/1355688789",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/420959088764133376/blICWh9q_normal.png",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/420959088764133376/blICWh9q_normal.png",
+            "profile_link_color": "2B3C68",
+            "profile_sidebar_border_color": "000000",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": false,
+            "protected": false,
+            "screen_name": "renaissanceio",
+            "status": {
+                "contributors": null,
+                "coordinates": null,
+                "created_at": "Tue Jan 28 05:12:37 +0000 2014",
+                "entities": {
+                    "hashtags": [
+                        {
+                            "indices": [
+                                3,
+                                9
+                            ],
+                            "text": "renio"
+                        }
+                    ],
+                    "symbols": [],
+                    "urls": [
+                        {
+                            "display_url": "renaissance.io/2014/people/ma\u2026",
+                            "expanded_url": "http://renaissance.io/2014/people/martijn_the",
+                            "indices": [
+                                84,
+                                106
+                            ],
+                            "url": "http://t.co/F4ZKqSCnET"
+                        }
+                    ],
+                    "user_mentions": [
+                        {
+                            "id": 515766653,
+                            "id_str": "515766653",
+                            "indices": [
+                                58,
+                                65
+                            ],
+                            "name": "Pebble",
+                            "screen_name": "Pebble"
+                        }
+                    ]
+                },
+                "favorite_count": 0,
+                "favorited": false,
+                "geo": null,
+                "id": 428032846586855424,
+                "id_str": "428032846586855424",
+                "in_reply_to_screen_name": null,
+                "in_reply_to_status_id": null,
+                "in_reply_to_status_id_str": null,
+                "in_reply_to_user_id": null,
+                "in_reply_to_user_id_str": null,
+                "lang": "en",
+                "place": null,
+                "possibly_sensitive": false,
+                "retweet_count": 2,
+                "retweeted": false,
+                "source": "web",
+                "text": "At #renio '14: Martijn Th\u00e9, Designer and iOS Developer at @pebble. Speaking Friday. http://t.co/F4ZKqSCnET",
+                "truncated": false
+            },
+            "statuses_count": 323,
+            "time_zone": null,
+            "url": "http://t.co/FVP59G2E4A",
+            "utc_offset": null,
+            "verified": false
+        },
+        {
+            "contributors_enabled": false,
+            "created_at": "Mon May 28 08:33:14 +0000 2012",
+            "default_profile": true,
+            "default_profile_image": false,
+            "description": "RubyConf Australia. Next conference: Luna Park, Sydney, 19-21 Feb 2014.\n\nOrganised by @rubyaustralia",
+            "entities": {
+                "description": {
+                    "urls": []
+                },
+                "url": {
+                    "urls": [
+                        {
+                            "display_url": "rubyconf.org.au",
+                            "expanded_url": "http://rubyconf.org.au",
+                            "indices": [
+                                0,
+                                22
+                            ],
+                            "url": "http://t.co/z6U4wCKH4A"
+                        }
+                    ]
+                }
+            },
+            "favourites_count": 1,
+            "follow_request_sent": false,
+            "followers_count": 767,
+            "following": false,
+            "friends_count": 2,
+            "geo_enabled": false,
+            "id": 592535210,
+            "id_str": "592535210",
+            "is_translation_enabled": false,
+            "is_translator": false,
+            "lang": "en",
+            "listed_count": 37,
+            "location": "Sydney",
+            "name": "RubyConf Australia",
+            "notifications": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/3210173601/bcdc74970b81d779aa280025fd7d01ed_normal.png",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/3210173601/bcdc74970b81d779aa280025fd7d01ed_normal.png",
+            "profile_link_color": "0084B4",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "protected": false,
+            "screen_name": "rubyconf_au",
+            "status": {
+                "contributors": null,
+                "coordinates": null,
+                "created_at": "Tue Jan 28 00:29:32 +0000 2014",
+                "entities": {
+                    "hashtags": [],
+                    "symbols": [],
+                    "urls": [
+                        {
+                            "display_url": "rubyconf.org.au",
+                            "expanded_url": "http://rubyconf.org.au",
+                            "indices": [
+                                63,
+                                85
+                            ],
+                            "url": "http://t.co/z6U4wCKH4A"
+                        }
+                    ],
+                    "user_mentions": [
+                        {
+                            "id": 20532109,
+                            "id_str": "20532109",
+                            "indices": [
+                                0,
+                                7
+                            ],
+                            "name": "YOW! Australia",
+                            "screen_name": "yow_oz"
+                        }
+                    ]
+                },
+                "favorite_count": 0,
+                "favorited": false,
+                "geo": null,
+                "id": 427961604580200449,
+                "id_str": "427961604580200449",
+                "in_reply_to_screen_name": "yow_oz",
+                "in_reply_to_status_id": 427958923967336448,
+                "in_reply_to_status_id_str": "427958923967336448",
+                "in_reply_to_user_id": 20532109,
+                "in_reply_to_user_id_str": "20532109",
+                "lang": "en",
+                "place": null,
+                "possibly_sensitive": false,
+                "retweet_count": 2,
+                "retweeted": false,
+                "source": "<a href=\"http://tapbots.com/software/tweetbot/mac\" rel=\"nofollow\">Tweetbot for Mac</a>",
+                "text": "@yow_oz we also have some awesome workshops on Wednesday 19th. http://t.co/z6U4wCKH4A ^JC",
+                "truncated": false
+            },
+            "statuses_count": 230,
+            "time_zone": "Melbourne",
+            "url": "http://t.co/z6U4wCKH4A",
+            "utc_offset": 39600,
+            "verified": false
+        },
+        {
+            "contributors_enabled": false,
+            "created_at": "Fri Apr 20 20:23:50 +0000 2012",
+            "default_profile": false,
+            "default_profile_image": false,
+            "description": "A conference dedicated to connecting CSS developers.",
+            "entities": {
+                "description": {
+                    "urls": []
+                },
+                "url": {
+                    "urls": [
+                        {
+                            "display_url": "cssconf.com",
+                            "expanded_url": "http://cssconf.com",
+                            "indices": [
+                                0,
+                                20
+                            ],
+                            "url": "http://t.co/OgH0gkTK"
+                        }
+                    ]
+                }
+            },
+            "favourites_count": 91,
+            "follow_request_sent": false,
+            "followers_count": 1753,
+            "following": false,
+            "friends_count": 40,
+            "geo_enabled": false,
+            "id": 558916730,
+            "id_str": "558916730",
+            "is_translation_enabled": false,
+            "is_translator": false,
+            "lang": "en",
+            "listed_count": 114,
+            "location": "Amelia Island, FL",
+            "name": "CSSConf",
+            "notifications": false,
+            "profile_background_color": "69C9FF",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme17/bg.gif",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme17/bg.gif",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/422844927148425216/G29qRdg9_normal.png",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/422844927148425216/G29qRdg9_normal.png",
+            "profile_link_color": "29ADFF",
+            "profile_sidebar_border_color": "FFFFFF",
+            "profile_sidebar_fill_color": "E6F6F9",
+            "profile_text_color": "333333",
+            "profile_use_background_image": false,
+            "protected": false,
+            "screen_name": "CSSConf",
+            "status": {
+                "contributors": null,
+                "coordinates": null,
+                "created_at": "Thu Jan 23 21:22:26 +0000 2014",
+                "entities": {
+                    "hashtags": [],
+                    "symbols": [],
+                    "urls": [
+                        {
+                            "display_url": "paul.ie/2013/12/mobile\u2026",
+                            "expanded_url": "http://paul.ie/2013/12/mobile-first-media-objects/",
+                            "indices": [
+                                83,
+                                105
+                            ],
+                            "url": "http://t.co/haecn9ZNw3"
+                        }
+                    ],
+                    "user_mentions": [
+                        {
+                            "id": 13889622,
+                            "id_str": "13889622",
+                            "indices": [
+                                3,
+                                9
+                            ],
+                            "name": "Luke Wroblewski",
+                            "screen_name": "lukew"
+                        }
+                    ]
+                },
+                "favorite_count": 0,
+                "favorited": false,
+                "geo": null,
+                "id": 426464969161711616,
+                "id_str": "426464969161711616",
+                "in_reply_to_screen_name": null,
+                "in_reply_to_status_id": null,
+                "in_reply_to_status_id_str": null,
+                "in_reply_to_user_id": null,
+                "in_reply_to_user_id_str": null,
+                "lang": "en",
+                "place": null,
+                "possibly_sensitive": false,
+                "retweet_count": 12,
+                "retweeted": false,
+                "retweeted_status": {
+                    "contributors": null,
+                    "coordinates": null,
+                    "created_at": "Thu Jan 23 20:34:27 +0000 2014",
+                    "entities": {
+                        "hashtags": [],
+                        "symbols": [],
+                        "urls": [
+                            {
+                                "display_url": "paul.ie/2013/12/mobile\u2026",
+                                "expanded_url": "http://paul.ie/2013/12/mobile-first-media-objects/",
+                                "indices": [
+                                    72,
+                                    94
+                                ],
+                                "url": "http://t.co/haecn9ZNw3"
+                            }
+                        ],
+                        "user_mentions": []
+                    },
+                    "favorite_count": 39,
+                    "favorited": false,
+                    "geo": null,
+                    "id": 426452893072236547,
+                    "id_str": "426452893072236547",
+                    "in_reply_to_screen_name": null,
+                    "in_reply_to_status_id": null,
+                    "in_reply_to_status_id_str": null,
+                    "in_reply_to_user_id": null,
+                    "in_reply_to_user_id_str": null,
+                    "lang": "en",
+                    "place": null,
+                    "possibly_sensitive": false,
+                    "retweet_count": 12,
+                    "retweeted": false,
+                    "source": "<a href=\"http://itunes.apple.com/us/app/twitter/id409789998?mt=12\" rel=\"nofollow\">Twitter for Mac</a>",
+                    "text": "Almost every project uses media objects\u2026 how to make them mobile first:\nhttp://t.co/haecn9ZNw3",
+                    "truncated": false
+                },
+                "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+                "text": "RT @lukew: Almost every project uses media objects\u2026 how to make them mobile first:\nhttp://t.co/haecn9ZNw3",
+                "truncated": false
+            },
+            "statuses_count": 425,
+            "time_zone": "Pacific Time (US & Canada)",
+            "url": "http://t.co/OgH0gkTK",
+            "utc_offset": -28800,
+            "verified": false
+        },
+        {
+            "contributors_enabled": false,
+            "created_at": "Thu Apr 14 13:38:13 +0000 2011",
+            "default_profile": true,
+            "default_profile_image": false,
+            "description": "The Scottish JavaScript Conference, May 9th & 10th 2014 in Edinburgh. Organised by @neo_gb.",
+            "entities": {
+                "description": {
+                    "urls": []
+                },
+                "url": {
+                    "urls": [
+                        {
+                            "display_url": "scotlandjs.com",
+                            "expanded_url": "http://scotlandjs.com",
+                            "indices": [
+                                0,
+                                22
+                            ],
+                            "url": "http://t.co/Hi14c8qjwc"
+                        }
+                    ]
+                }
+            },
+            "favourites_count": 29,
+            "follow_request_sent": false,
+            "followers_count": 869,
+            "following": false,
+            "friends_count": 1807,
+            "geo_enabled": false,
+            "id": 282062353,
+            "id_str": "282062353",
+            "is_translation_enabled": false,
+            "is_translator": false,
+            "lang": "en",
+            "listed_count": 47,
+            "location": "Edinburgh, Scotland",
+            "name": "Scotland JS",
+            "notifications": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/282062353/1358937220",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/3151899307/63300b0b1722dc7556814965eba88ebc_normal.png",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/3151899307/63300b0b1722dc7556814965eba88ebc_normal.png",
+            "profile_link_color": "0084B4",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "protected": false,
+            "screen_name": "ScotlandJS",
+            "status": {
+                "contributors": null,
+                "coordinates": null,
+                "created_at": "Mon Jan 27 12:31:55 +0000 2014",
+                "entities": {
+                    "hashtags": [],
+                    "symbols": [],
+                    "urls": [
+                        {
+                            "display_url": "vimeo.com/70637558",
+                            "expanded_url": "https://vimeo.com/70637558",
+                            "indices": [
+                                38,
+                                61
+                            ],
+                            "url": "https://t.co/GGoyAwVaUn"
+                        },
+                        {
+                            "display_url": "scotlandjs.com",
+                            "expanded_url": "http://scotlandjs.com",
+                            "indices": [
+                                139,
+                                140
+                            ],
+                            "url": "http://t.co/9LNfOuc8nx"
+                        }
+                    ],
+                    "user_mentions": [
+                        {
+                            "id": 1897534837,
+                            "id_str": "1897534837",
+                            "indices": [
+                                3,
+                                16
+                            ],
+                            "name": "GinJS",
+                            "screen_name": "ginjs_london"
+                        },
+                        {
+                            "id": 282062353,
+                            "id_str": "282062353",
+                            "indices": [
+                                18,
+                                29
+                            ],
+                            "name": "Scotland JS",
+                            "screen_name": "ScotlandJS"
+                        }
+                    ]
+                },
+                "favorite_count": 0,
+                "favorited": false,
+                "geo": null,
+                "id": 427781013146984448,
+                "id_str": "427781013146984448",
+                "in_reply_to_screen_name": null,
+                "in_reply_to_status_id": null,
+                "in_reply_to_status_id_str": null,
+                "in_reply_to_user_id": null,
+                "in_reply_to_user_id_str": null,
+                "lang": "en",
+                "place": null,
+                "possibly_sensitive": false,
+                "retweet_count": 3,
+                "retweeted": false,
+                "retweeted_status": {
+                    "contributors": null,
+                    "coordinates": null,
+                    "created_at": "Mon Jan 27 11:32:31 +0000 2014",
+                    "entities": {
+                        "hashtags": [],
+                        "symbols": [],
+                        "urls": [
+                            {
+                                "display_url": "vimeo.com/70637558",
+                                "expanded_url": "https://vimeo.com/70637558",
+                                "indices": [
+                                    20,
+                                    43
+                                ],
+                                "url": "https://t.co/GGoyAwVaUn"
+                            },
+                            {
+                                "display_url": "scotlandjs.com",
+                                "expanded_url": "http://scotlandjs.com",
+                                "indices": [
+                                    113,
+                                    135
+                                ],
+                                "url": "http://t.co/9LNfOuc8nx"
+                            }
+                        ],
+                        "user_mentions": [
+                            {
+                                "id": 282062353,
+                                "id_str": "282062353",
+                                "indices": [
+                                    0,
+                                    11
+                                ],
+                                "name": "Scotland JS",
+                                "screen_name": "ScotlandJS"
+                            }
+                        ]
+                    },
+                    "favorite_count": 0,
+                    "favorited": false,
+                    "geo": null,
+                    "id": 427766064068718592,
+                    "id_str": "427766064068718592",
+                    "in_reply_to_screen_name": "ScotlandJS",
+                    "in_reply_to_status_id": null,
+                    "in_reply_to_status_id_str": null,
+                    "in_reply_to_user_id": 282062353,
+                    "in_reply_to_user_id_str": "282062353",
+                    "lang": "en",
+                    "place": null,
+                    "possibly_sensitive": false,
+                    "retweet_count": 3,
+                    "retweeted": false,
+                    "source": "<a href=\"http://itunes.apple.com/us/app/twitter/id409789998?mt=12\" rel=\"nofollow\">Twitter for Mac</a>",
+                    "text": "@scotlandjs in May! https://t.co/GGoyAwVaUn. Submit a talk, Edinburgh's a beautiful city just a train ride away. http://t.co/9LNfOuc8nx",
+                    "truncated": false
+                },
+                "source": "<a href=\"http://itunes.apple.com/us/app/twitter/id409789998?mt=12\" rel=\"nofollow\">Twitter for Mac</a>",
+                "text": "RT @ginjs_london: @scotlandjs in May! https://t.co/GGoyAwVaUn. Submit a talk, Edinburgh's a beautiful city just a train ride away. http://t\u2026",
+                "truncated": false
+            },
+            "statuses_count": 1614,
+            "time_zone": "Edinburgh",
+            "url": "http://t.co/Hi14c8qjwc",
+            "utc_offset": 0,
+            "verified": false
+        },
+        {
+            "contributors_enabled": false,
+            "created_at": "Mon Aug 30 17:13:35 +0000 2010",
+            "default_profile": false,
+            "default_profile_image": false,
+            "description": "That Conference is your Summer Camp for Geeks.",
+            "entities": {
+                "description": {
+                    "urls": []
+                },
+                "url": {
+                    "urls": [
+                        {
+                            "display_url": "ThatConference.com",
+                            "expanded_url": "http://ThatConference.com",
+                            "indices": [
+                                0,
+                                22
+                            ],
+                            "url": "http://t.co/k548muPSgX"
+                        }
+                    ]
+                }
+            },
+            "favourites_count": 0,
+            "follow_request_sent": false,
+            "followers_count": 1094,
+            "following": false,
+            "friends_count": 10,
+            "geo_enabled": false,
+            "id": 184857087,
+            "id_str": "184857087",
+            "is_translation_enabled": false,
+            "is_translator": false,
+            "lang": "en",
+            "listed_count": 65,
+            "location": "Wisconsin Dells, WI",
+            "name": "That Conference",
+            "notifications": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http://a0.twimg.com/profile_background_images/378800000165218837/vcpb0Pd6.jpeg",
+            "profile_background_image_url_https": "https://si0.twimg.com/profile_background_images/378800000165218837/vcpb0Pd6.jpeg",
+            "profile_background_tile": false,
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/184857087/1389278498",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/421290706615820288/mnCMvNzE_normal.jpeg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/421290706615820288/mnCMvNzE_normal.jpeg",
+            "profile_link_color": "0084B4",
+            "profile_sidebar_border_color": "FFFFFF",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "protected": false,
+            "screen_name": "ThatConference",
+            "status": {
+                "contributors": null,
+                "coordinates": null,
+                "created_at": "Mon Jan 20 15:46:00 +0000 2014",
+                "entities": {
+                    "hashtags": [],
+                    "symbols": [],
+                    "urls": [],
+                    "user_mentions": []
+                },
+                "favorite_count": 3,
+                "favorited": false,
+                "geo": null,
+                "id": 425293137062268928,
+                "id_str": "425293137062268928",
+                "in_reply_to_screen_name": null,
+                "in_reply_to_status_id": null,
+                "in_reply_to_status_id_str": null,
+                "in_reply_to_user_id": null,
+                "in_reply_to_user_id_str": null,
+                "lang": "en",
+                "place": null,
+                "retweet_count": 11,
+                "retweeted": false,
+                "source": "web",
+                "text": "Mark your calendars 2014 Call for Sponsors starts 2/1, 2014 Call for Speakers 3/31.",
+                "truncated": false
+            },
+            "statuses_count": 1270,
+            "time_zone": "Central Time (US & Canada)",
+            "url": "http://t.co/k548muPSgX",
+            "utc_offset": -21600,
+            "verified": false
+        },
+        {
+            "contributors_enabled": false,
+            "created_at": "Thu Mar 25 20:54:05 +0000 2010",
+            "default_profile": false,
+            "default_profile_image": false,
+            "description": "Work hard and be nice to people.",
+            "entities": {
+                "description": {
+                    "urls": []
+                },
+                "url": {
+                    "urls": [
+                        {
+                            "display_url": "brooklynbeta.org",
+                            "expanded_url": "http://brooklynbeta.org/",
+                            "indices": [
+                                0,
+                                22
+                            ],
+                            "url": "http://t.co/RILuCcrpqu"
+                        }
+                    ]
+                }
+            },
+            "favourites_count": 1,
+            "follow_request_sent": false,
+            "followers_count": 6142,
+            "following": false,
+            "friends_count": 2,
+            "geo_enabled": true,
+            "id": 126424576,
+            "id_str": "126424576",
+            "is_translation_enabled": false,
+            "is_translator": false,
+            "lang": "en",
+            "listed_count": 305,
+            "location": "Brooklyn, NY",
+            "name": "Brooklyn Beta",
+            "notifications": false,
+            "profile_background_color": "24201D",
+            "profile_background_image_url": "http://a0.twimg.com/profile_background_images/430146954/bb_background.jpg",
+            "profile_background_image_url_https": "https://si0.twimg.com/profile_background_images/430146954/bb_background.jpg",
+            "profile_background_tile": false,
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/126424576/1371762327",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1841405307/bb_twitter_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1841405307/bb_twitter_normal.jpg",
+            "profile_link_color": "A52724",
+            "profile_sidebar_border_color": "D0534D",
+            "profile_sidebar_fill_color": "F2EACF",
+            "profile_text_color": "262420",
+            "profile_use_background_image": true,
+            "protected": false,
+            "screen_name": "brooklynbeta",
+            "status": {
+                "contributors": null,
+                "coordinates": null,
+                "created_at": "Fri Dec 13 18:15:06 +0000 2013",
+                "entities": {
+                    "hashtags": [],
+                    "symbols": [],
+                    "urls": [
+                        {
+                            "display_url": "j.mp/ellecrush",
+                            "expanded_url": "http://j.mp/ellecrush",
+                            "indices": [
+                                81,
+                                103
+                            ],
+                            "url": "http://t.co/i1XrG8zmXx"
+                        }
+                    ],
+                    "user_mentions": [
+                        {
+                            "id": 19092567,
+                            "id_str": "19092567",
+                            "indices": [
+                                27,
+                                37
+                            ],
+                            "name": "Adda Birnir",
+                            "screen_name": "addabjork"
+                        },
+                        {
+                            "id": 507709379,
+                            "id_str": "507709379",
+                            "indices": [
+                                41,
+                                52
+                            ],
+                            "name": "Skillcrush",
+                            "screen_name": "Skillcrush"
+                        },
+                        {
+                            "id": 20177423,
+                            "id_str": "20177423",
+                            "indices": [
+                                56,
+                                69
+                            ],
+                            "name": "ELLE Magazine (US)",
+                            "screen_name": "ELLEmagazine"
+                        }
+                    ]
+                },
+                "favorite_count": 4,
+                "favorited": false,
+                "geo": null,
+                "id": 411559921977540608,
+                "id_str": "411559921977540608",
+                "in_reply_to_screen_name": null,
+                "in_reply_to_status_id": null,
+                "in_reply_to_status_id_str": null,
+                "in_reply_to_user_id": null,
+                "in_reply_to_user_id_str": null,
+                "lang": "en",
+                "place": null,
+                "possibly_sensitive": false,
+                "retweet_count": 2,
+                "retweeted": false,
+                "source": "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
+                "text": "Happy to see Summer Camper @addabjork of @skillcrush on @ellemagazine. Congrats! http://t.co/i1XrG8zmXx",
+                "truncated": false
+            },
+            "statuses_count": 262,
+            "time_zone": "Eastern Time (US & Canada)",
+            "url": "http://t.co/RILuCcrpqu",
+            "utc_offset": -18000,
+            "verified": false
+        },
+        {
+            "contributors_enabled": false,
+            "created_at": "Tue Mar 09 04:26:40 +0000 2010",
+            "default_profile": false,
+            "default_profile_image": false,
+            "description": "A conference based in Madison, WI about the Ruby programming language and related interests. -- Overture Center for the Arts & more --\r\nAugust 21-24th, 2014",
+            "entities": {
+                "description": {
+                    "urls": []
+                },
+                "url": {
+                    "urls": [
+                        {
+                            "display_url": "madisonruby.org",
+                            "expanded_url": "http://madisonruby.org",
+                            "indices": [
+                                0,
+                                22
+                            ],
+                            "url": "http://t.co/qPqs4gEoEo"
+                        }
+                    ]
+                }
+            },
+            "favourites_count": 490,
+            "follow_request_sent": false,
+            "followers_count": 930,
+            "following": false,
+            "friends_count": 328,
+            "geo_enabled": true,
+            "id": 121324195,
+            "id_str": "121324195",
+            "is_translation_enabled": false,
+            "is_translator": false,
+            "lang": "en",
+            "listed_count": 87,
+            "location": "Madison, WI",
+            "name": "Madison Ruby",
+            "notifications": false,
+            "profile_background_color": "131516",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme14/bg.gif",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme14/bg.gif",
+            "profile_background_tile": true,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1219972840/MadisonRuby-Logo-NoText_normal.png",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1219972840/MadisonRuby-Logo-NoText_normal.png",
+            "profile_link_color": "E00000",
+            "profile_sidebar_border_color": "EEEEEE",
+            "profile_sidebar_fill_color": "EFEFEF",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "protected": false,
+            "screen_name": "MadisonRuby",
+            "status": {
+                "contributors": null,
+                "coordinates": null,
+                "created_at": "Mon Jan 27 15:02:12 +0000 2014",
+                "entities": {
+                    "hashtags": [],
+                    "symbols": [],
+                    "urls": [],
+                    "user_mentions": [
+                        {
+                            "id": 18873073,
+                            "id_str": "18873073",
+                            "indices": [
+                                0,
+                                14
+                            ],
+                            "name": "Janie Clayton-Hasz",
+                            "screen_name": "RedQueenCoder"
+                        }
+                    ]
+                },
+                "favorite_count": 1,
+                "favorited": false,
+                "geo": null,
+                "id": 427818831789056000,
+                "id_str": "427818831789056000",
+                "in_reply_to_screen_name": "RedQueenCoder",
+                "in_reply_to_status_id": 427794065610911744,
+                "in_reply_to_status_id_str": "427794065610911744",
+                "in_reply_to_user_id": 18873073,
+                "in_reply_to_user_id_str": "18873073",
+                "lang": "en",
+                "place": null,
+                "retweet_count": 0,
+                "retweeted": false,
+                "source": "<a href=\"http://itunes.apple.com/us/app/twitter/id409789998?mt=12\" rel=\"nofollow\">Twitter for Mac</a>",
+                "text": "@RedQueenCoder We think it's faux FAB! \u2026 wait.",
+                "truncated": false
+            },
+            "statuses_count": 2812,
+            "time_zone": "Central Time (US & Canada)",
+            "url": "http://t.co/qPqs4gEoEo",
+            "utc_offset": -21600,
+            "verified": false
+        },
+        {
+            "contributors_enabled": false,
+            "created_at": "Tue Sep 08 16:07:38 +0000 2009",
+            "default_profile": false,
+            "default_profile_image": false,
+            "description": "Latest updates and news on jQuery Foundation events, including the 2014 jQuery Conference San Diego, Feb 12-13 2014",
+            "entities": {
+                "description": {
+                    "urls": []
+                },
+                "url": {
+                    "urls": [
+                        {
+                            "display_url": "events.jquery.org/2014/san-diego",
+                            "expanded_url": "http://events.jquery.org/2014/san-diego",
+                            "indices": [
+                                0,
+                                22
+                            ],
+                            "url": "http://t.co/5aOgVOAdAZ"
+                        }
+                    ]
+                }
+            },
+            "favourites_count": 1,
+            "follow_request_sent": false,
+            "followers_count": 2681,
+            "following": false,
+            "friends_count": 8,
+            "geo_enabled": true,
+            "id": 72589695,
+            "id_str": "72589695",
+            "is_translation_enabled": false,
+            "is_translator": false,
+            "lang": "en",
+            "listed_count": 197,
+            "location": "San Diego, CA",
+            "name": "jQuery Conference",
+            "notifications": false,
+            "profile_background_color": "699241",
+            "profile_background_image_url": "http://a0.twimg.com/profile_background_images/378800000091295250/4f508787447d90b2ac3547b6c08a2d74.jpeg",
+            "profile_background_image_url_https": "https://si0.twimg.com/profile_background_images/378800000091295250/4f508787447d90b2ac3547b6c08a2d74.jpeg",
+            "profile_background_tile": true,
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/72589695/1381344634",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/378800000572488009/9e845c7a97073e1f83fd5126864746d3_normal.png",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/378800000572488009/9e845c7a97073e1f83fd5126864746d3_normal.png",
+            "profile_link_color": "00A2CA",
+            "profile_sidebar_border_color": "FFFFFF",
+            "profile_sidebar_fill_color": "C0DFEC",
+            "profile_text_color": "333333",
+            "profile_use_background_image": false,
+            "protected": false,
+            "screen_name": "jqcon",
+            "status": {
+                "contributors": null,
+                "coordinates": null,
+                "created_at": "Wed Jan 22 16:57:42 +0000 2014",
+                "entities": {
+                    "hashtags": [
+                        {
+                            "indices": [
+                                12,
+                                18
+                            ],
+                            "text": "jqcon"
+                        }
+                    ],
+                    "symbols": [],
+                    "urls": [
+                        {
+                            "display_url": "blog.jquery.com/2014/01/22/jqu\u2026",
+                            "expanded_url": "http://blog.jquery.com/2014/01/22/jquery-san-diego-is-in-three-weeks-from-today-go/",
+                            "indices": [
+                                143,
+                                144
+                            ],
+                            "url": "http://t.co/RVlpvROxBY"
+                        }
+                    ],
+                    "user_mentions": [
+                        {
+                            "id": 14538601,
+                            "id_str": "14538601",
+                            "indices": [
+                                3,
+                                10
+                            ],
+                            "name": "jQuery",
+                            "screen_name": "jquery"
+                        }
+                    ]
+                },
+                "favorite_count": 0,
+                "favorited": false,
+                "geo": null,
+                "id": 426035958543552512,
+                "id_str": "426035958543552512",
+                "in_reply_to_screen_name": null,
+                "in_reply_to_status_id": null,
+                "in_reply_to_status_id_str": null,
+                "in_reply_to_user_id": null,
+                "in_reply_to_user_id_str": null,
+                "lang": "en",
+                "place": null,
+                "possibly_sensitive": false,
+                "retweet_count": 20,
+                "retweeted": false,
+                "retweeted_status": {
+                    "contributors": null,
+                    "coordinates": null,
+                    "created_at": "Wed Jan 22 16:57:14 +0000 2014",
+                    "entities": {
+                        "hashtags": [
+                            {
+                                "indices": [
+                                    0,
+                                    6
+                                ],
+                                "text": "jqcon"
+                            }
+                        ],
+                        "symbols": [],
+                        "urls": [
+                            {
+                                "display_url": "blog.jquery.com/2014/01/22/jqu\u2026",
+                                "expanded_url": "http://blog.jquery.com/2014/01/22/jquery-san-diego-is-in-three-weeks-from-today-go/",
+                                "indices": [
+                                    114,
+                                    136
+                                ],
+                                "url": "http://t.co/RVlpvROxBY"
+                            }
+                        ],
+                        "user_mentions": []
+                    },
+                    "favorite_count": 8,
+                    "favorited": false,
+                    "geo": null,
+                    "id": 426035840897122305,
+                    "id_str": "426035840897122305",
+                    "in_reply_to_screen_name": null,
+                    "in_reply_to_status_id": null,
+                    "in_reply_to_status_id_str": null,
+                    "in_reply_to_user_id": null,
+                    "in_reply_to_user_id_str": null,
+                    "lang": "en",
+                    "place": null,
+                    "possibly_sensitive": false,
+                    "retweet_count": 20,
+                    "retweeted": false,
+                    "source": "web",
+                    "text": "#jqcon San Diego &amp; Roost are just 3 weeks away! 36 talks, a party, and even save some $ (where $ !== jQuery): http://t.co/RVlpvROxBY",
+                    "truncated": false
+                },
+                "source": "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
+                "text": "RT @jquery: #jqcon San Diego &amp; Roost are just 3 weeks away! 36 talks, a party, and even save some $ (where $ !== jQuery): http://t.co/RVlpv\u2026",
+                "truncated": false
+            },
+            "statuses_count": 472,
+            "time_zone": "Eastern Time (US & Canada)",
+            "url": "http://t.co/5aOgVOAdAZ",
+            "utc_offset": -18000,
+            "verified": false
+        },
+        {
+            "contributors_enabled": false,
+            "created_at": "Wed Dec 10 00:27:08 +0000 2008",
+            "default_profile": true,
+            "default_profile_image": false,
+            "description": "communication, respect and passion",
+            "entities": {
+                "description": {
+                    "urls": []
+                },
+                "url": {
+                    "urls": [
+                        {
+                            "display_url": "kalamazoox.org",
+                            "expanded_url": "http://www.kalamazoox.org",
+                            "indices": [
+                                0,
+                                22
+                            ],
+                            "url": "http://t.co/mJ1JdLsZbS"
+                        }
+                    ]
+                }
+            },
+            "favourites_count": 10,
+            "follow_request_sent": false,
+            "followers_count": 294,
+            "following": false,
+            "friends_count": 44,
+            "geo_enabled": false,
+            "id": 18007355,
+            "id_str": "18007355",
+            "is_translation_enabled": false,
+            "is_translator": false,
+            "lang": "en",
+            "listed_count": 17,
+            "location": "Kalamazoo, MI",
+            "name": "kalamazoox",
+            "notifications": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1876953499/kalx-twitter-avatar_normal.png",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1876953499/kalx-twitter-avatar_normal.png",
+            "profile_link_color": "0084B4",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "protected": false,
+            "screen_name": "kalamazoox",
+            "status": {
+                "contributors": null,
+                "coordinates": null,
+                "created_at": "Mon Jan 27 21:07:05 +0000 2014",
+                "entities": {
+                    "hashtags": [],
+                    "symbols": [],
+                    "urls": [
+                        {
+                            "display_url": "eventbrite.com/e/kalamazoo-x-\u2026",
+                            "expanded_url": "https://www.eventbrite.com/e/kalamazoo-x-conference-2014-registration-8320710469?ref=estw",
+                            "indices": [
+                                114,
+                                137
+                            ],
+                            "url": "https://t.co/W5gHk9Aq3P"
+                        }
+                    ],
+                    "user_mentions": [
+                        {
+                            "id": 248722643,
+                            "id_str": "248722643",
+                            "indices": [
+                                3,
+                                14
+                            ],
+                            "name": "Jim Holmes",
+                            "screen_name": "aJimHolmes"
+                        },
+                        {
+                            "id": 18007355,
+                            "id_str": "18007355",
+                            "indices": [
+                                17,
+                                28
+                            ],
+                            "name": "kalamazoox",
+                            "screen_name": "kalamazoox"
+                        }
+                    ]
+                },
+                "favorite_count": 0,
+                "favorited": false,
+                "geo": null,
+                "id": 427910657007435776,
+                "id_str": "427910657007435776",
+                "in_reply_to_screen_name": null,
+                "in_reply_to_status_id": null,
+                "in_reply_to_status_id_str": null,
+                "in_reply_to_user_id": null,
+                "in_reply_to_user_id_str": null,
+                "lang": "en",
+                "place": null,
+                "possibly_sensitive": false,
+                "retweet_count": 2,
+                "retweeted": false,
+                "retweeted_status": {
+                    "contributors": null,
+                    "coordinates": null,
+                    "created_at": "Mon Jan 27 21:06:46 +0000 2014",
+                    "entities": {
+                        "hashtags": [],
+                        "symbols": [],
+                        "urls": [
+                            {
+                                "display_url": "eventbrite.com/e/kalamazoo-x-\u2026",
+                                "expanded_url": "https://www.eventbrite.com/e/kalamazoo-x-conference-2014-registration-8320710469?ref=estw",
+                                "indices": [
+                                    98,
+                                    121
+                                ],
+                                "url": "https://t.co/W5gHk9Aq3P"
+                            }
+                        ],
+                        "user_mentions": [
+                            {
+                                "id": 18007355,
+                                "id_str": "18007355",
+                                "indices": [
+                                    1,
+                                    12
+                                ],
+                                "name": "kalamazoox",
+                                "screen_name": "kalamazoox"
+                            }
+                        ]
+                    },
+                    "favorite_count": 0,
+                    "favorited": false,
+                    "geo": null,
+                    "id": 427910578515222528,
+                    "id_str": "427910578515222528",
+                    "in_reply_to_screen_name": null,
+                    "in_reply_to_status_id": null,
+                    "in_reply_to_status_id_str": null,
+                    "in_reply_to_user_id": null,
+                    "in_reply_to_user_id_str": null,
+                    "lang": "en",
+                    "place": null,
+                    "possibly_sensitive": false,
+                    "retweet_count": 2,
+                    "retweeted": false,
+                    "source": "<a href=\"http://itunes.apple.com/us/app/twitter/id409789998?mt=12\" rel=\"nofollow\">Twitter for Mac</a>",
+                    "text": ".@kalamazoox is one of the best conference values around. $50 early bird. GO BUY YOUR TICKET NOW. https://t.co/W5gHk9Aq3P",
+                    "truncated": false
+                },
+                "source": "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
+                "text": "RT @aJimHolmes: .@kalamazoox is one of the best conference values around. $50 early bird. GO BUY YOUR TICKET NOW. https://t.co/W5gHk9Aq3P",
+                "truncated": false
+            },
+            "statuses_count": 524,
+            "time_zone": "Eastern Time (US & Canada)",
+            "url": "http://t.co/mJ1JdLsZbS",
+            "utc_offset": -18000,
+            "verified": false
+        },
+        {
+            "contributors_enabled": false,
+            "created_at": "Mon Dec 08 20:20:53 +0000 2008",
+            "default_profile": false,
+            "default_profile_image": false,
+            "description": "DLD (Digital - Life - Design) is a global conference network on innovation, digital media, science and culture.",
+            "entities": {
+                "description": {
+                    "urls": []
+                },
+                "url": {
+                    "urls": [
+                        {
+                            "display_url": "dld.co",
+                            "expanded_url": "http://www.dld.co",
+                            "indices": [
+                                0,
+                                22
+                            ],
+                            "url": "http://t.co/eMDAdtKK91"
+                        }
+                    ]
+                }
+            },
+            "favourites_count": 113,
+            "follow_request_sent": false,
+            "followers_count": 11134,
+            "following": false,
+            "friends_count": 1124,
+            "geo_enabled": false,
+            "id": 17972106,
+            "id_str": "17972106",
+            "is_translation_enabled": false,
+            "is_translator": false,
+            "lang": "en",
+            "listed_count": 528,
+            "location": "Munich, Germany",
+            "name": "DLD Conference",
+            "notifications": false,
+            "profile_background_color": "FFFFFF",
+            "profile_background_image_url": "http://a0.twimg.com/profile_background_images/780980492/155eac51711ffe441e2aa28ff21a52d2.jpeg",
+            "profile_background_image_url_https": "https://si0.twimg.com/profile_background_images/780980492/155eac51711ffe441e2aa28ff21a52d2.jpeg",
+            "profile_background_tile": true,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/66773901/dld_normal.png",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/66773901/dld_normal.png",
+            "profile_link_color": "FF7F33",
+            "profile_sidebar_border_color": "000000",
+            "profile_sidebar_fill_color": "D1D1D1",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "protected": false,
+            "screen_name": "DLDConference",
+            "status": {
+                "contributors": null,
+                "coordinates": null,
+                "created_at": "Mon Jan 27 17:18:54 +0000 2014",
+                "entities": {
+                    "hashtags": [
+                        {
+                            "indices": [
+                                12,
+                                18
+                            ],
+                            "text": "DLD14"
+                        }
+                    ],
+                    "symbols": [],
+                    "urls": [
+                        {
+                            "display_url": "youtube.com/watch?v=pqaA7W\u2026",
+                            "expanded_url": "http://www.youtube.com/watch?v=pqaA7WGsnqA",
+                            "indices": [
+                                35,
+                                57
+                            ],
+                            "url": "http://t.co/uqjXZIN3f0"
+                        }
+                    ],
+                    "user_mentions": [
+                        {
+                            "id": 241272537,
+                            "id_str": "241272537",
+                            "indices": [
+                                21,
+                                34
+                            ],
+                            "name": "BOILER ROOM",
+                            "screen_name": "boilerroomtv"
+                        },
+                        {
+                            "id": 81829080,
+                            "id_str": "81829080",
+                            "indices": [
+                                61,
+                                74
+                            ],
+                            "name": "Gomma Records",
+                            "screen_name": "gommarecords"
+                        }
+                    ]
+                },
+                "favorite_count": 0,
+                "favorited": false,
+                "geo": null,
+                "id": 427853233718325248,
+                "id_str": "427853233718325248",
+                "in_reply_to_screen_name": null,
+                "in_reply_to_status_id": null,
+                "in_reply_to_status_id_str": null,
+                "in_reply_to_user_id": null,
+                "in_reply_to_user_id_str": null,
+                "lang": "vi",
+                "place": null,
+                "possibly_sensitive": false,
+                "retweet_count": 0,
+                "retweeted": false,
+                "source": "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
+                "text": "Munk in the #DLD14 x @boilerroomtv http://t.co/uqjXZIN3f0 cc @gommarecords",
+                "truncated": false
+            },
+            "statuses_count": 3563,
+            "time_zone": "Berlin",
+            "url": "http://t.co/eMDAdtKK91",
+            "utc_offset": 3600,
+            "verified": false
+        },
+        {
+            "contributors_enabled": false,
+            "created_at": "Sun Oct 26 13:34:38 +0000 2008",
+            "default_profile": false,
+            "default_profile_image": false,
+            "description": "Glue is the conference that explores integration of all things on the web as platform.",
+            "entities": {
+                "description": {
+                    "urls": []
+                },
+                "url": {
+                    "urls": [
+                        {
+                            "display_url": "gluecon.com",
+                            "expanded_url": "http://www.gluecon.com",
+                            "indices": [
+                                0,
+                                22
+                            ],
+                            "url": "http://t.co/ub7Mg3VPsm"
+                        }
+                    ]
+                }
+            },
+            "favourites_count": 0,
+            "follow_request_sent": false,
+            "followers_count": 627,
+            "following": false,
+            "friends_count": 53,
+            "geo_enabled": false,
+            "id": 16980237,
+            "id_str": "16980237",
+            "is_translation_enabled": false,
+            "is_translator": false,
+            "lang": "en",
+            "listed_count": 56,
+            "location": "Conference-Denver; HQ-FLA",
+            "name": "gluecon",
+            "notifications": false,
+            "profile_background_color": "642D8B",
+            "profile_background_image_url": "http://a0.twimg.com/profile_background_images/3945018/Final_Glue_Logo_on_Teal_72.jpg",
+            "profile_background_image_url_https": "https://si0.twimg.com/profile_background_images/3945018/Final_Glue_Logo_on_Teal_72.jpg",
+            "profile_background_tile": true,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/71632730/Final_Glue_Logo_on_Teal_72_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/71632730/Final_Glue_Logo_on_Teal_72_normal.jpg",
+            "profile_link_color": "FF0000",
+            "profile_sidebar_border_color": "65B0DA",
+            "profile_sidebar_fill_color": "EED57A",
+            "profile_text_color": "3D1957",
+            "profile_use_background_image": true,
+            "protected": false,
+            "screen_name": "gluecon",
+            "status": {
+                "contributors": null,
+                "coordinates": null,
+                "created_at": "Wed Jan 08 21:06:33 +0000 2014",
+                "entities": {
+                    "hashtags": [],
+                    "symbols": [],
+                    "urls": [
+                        {
+                            "display_url": "gluecon.com/2014/",
+                            "expanded_url": "http://www.gluecon.com/2014/",
+                            "indices": [
+                                38,
+                                60
+                            ],
+                            "url": "http://t.co/vPb4g1KvD5"
+                        }
+                    ],
+                    "user_mentions": []
+                },
+                "favorite_count": 0,
+                "favorited": false,
+                "geo": null,
+                "id": 421025153489723392,
+                "id_str": "421025153489723392",
+                "in_reply_to_screen_name": null,
+                "in_reply_to_status_id": null,
+                "in_reply_to_status_id_str": null,
+                "in_reply_to_user_id": null,
+                "in_reply_to_user_id_str": null,
+                "lang": "en",
+                "place": null,
+                "possibly_sensitive": false,
+                "retweet_count": 0,
+                "retweeted": false,
+                "source": "web",
+                "text": "oh, and Gluecon registration is open: http://t.co/vPb4g1KvD5",
+                "truncated": false
+            },
+            "statuses_count": 259,
+            "time_zone": "Quito",
+            "url": "http://t.co/ub7Mg3VPsm",
+            "utc_offset": -18000,
+            "verified": false
+        },
+        {
+            "contributors_enabled": false,
+            "created_at": "Fri Nov 16 05:51:33 +0000 2007",
+            "default_profile": false,
+            "default_profile_image": false,
+            "description": "O'Reilly Velocity Conference is the single most important event for web operations and performance professionals. June 24-26 in Santa Clara, CA.",
+            "entities": {
+                "description": {
+                    "urls": []
+                },
+                "url": {
+                    "urls": [
+                        {
+                            "display_url": "velocityconf.com",
+                            "expanded_url": "http://velocityconf.com",
+                            "indices": [
+                                0,
+                                22
+                            ],
+                            "url": "http://t.co/uKLlgcigV3"
+                        }
+                    ]
+                }
+            },
+            "favourites_count": 269,
+            "follow_request_sent": false,
+            "followers_count": 10394,
+            "following": false,
+            "friends_count": 2607,
+            "geo_enabled": false,
+            "id": 10295842,
+            "id_str": "10295842",
+            "is_translation_enabled": false,
+            "is_translator": false,
+            "lang": "en",
+            "listed_count": 372,
+            "location": "",
+            "name": "O'Reilly Velocity",
+            "notifications": false,
+            "profile_background_color": "009999",
+            "profile_background_image_url": "http://a0.twimg.com/profile_background_images/16833501/background_01-1.jpg",
+            "profile_background_image_url_https": "https://si0.twimg.com/profile_background_images/16833501/background_01-1.jpg",
+            "profile_background_tile": false,
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/10295842/1377141170",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1286748331/velocity_twitterlogo_normal.gif",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1286748331/velocity_twitterlogo_normal.gif",
+            "profile_link_color": "0084B4",
+            "profile_sidebar_border_color": "009999",
+            "profile_sidebar_fill_color": "FFFFFF",
+            "profile_text_color": "000000",
+            "profile_use_background_image": false,
+            "protected": false,
+            "screen_name": "velocityconf",
+            "status": {
+                "contributors": null,
+                "coordinates": null,
+                "created_at": "Mon Jan 27 23:01:14 +0000 2014",
+                "entities": {
+                    "hashtags": [
+                        {
+                            "indices": [
+                                117,
+                                130
+                            ],
+                            "text": "oreillysolid"
+                        }
+                    ],
+                    "symbols": [],
+                    "urls": [
+                        {
+                            "display_url": "oreil.ly/1bsbVtJ",
+                            "expanded_url": "http://oreil.ly/1bsbVtJ",
+                            "indices": [
+                                42,
+                                64
+                            ],
+                            "url": "http://t.co/QmGLoHzQJw"
+                        }
+                    ],
+                    "user_mentions": [
+                        {
+                            "id": 11069462,
+                            "id_str": "11069462",
+                            "indices": [
+                                3,
+                                16
+                            ],
+                            "name": "O'Reilly Media",
+                            "screen_name": "OReillyMedia"
+                        }
+                    ]
+                },
+                "favorite_count": 0,
+                "favorited": false,
+                "geo": null,
+                "id": 427939385339027456,
+                "id_str": "427939385339027456",
+                "in_reply_to_screen_name": null,
+                "in_reply_to_status_id": null,
+                "in_reply_to_status_id_str": null,
+                "in_reply_to_user_id": null,
+                "in_reply_to_user_id_str": null,
+                "lang": "en",
+                "place": null,
+                "possibly_sensitive": false,
+                "retweet_count": 0,
+                "retweeted": false,
+                "source": "<a href=\"http://www.hootsuite.com\" rel=\"nofollow\">HootSuite</a>",
+                "text": "RT @OReillyMedia The new bot on the block http://t.co/QmGLoHzQJw Glen Martin on how robotics are changing everything #oreillysolid",
+                "truncated": false
+            },
+            "statuses_count": 2271,
+            "time_zone": "Pacific Time (US & Canada)",
+            "url": "http://t.co/uKLlgcigV3",
+            "utc_offset": -28800,
+            "verified": false
+        },
+        {
+            "contributors_enabled": false,
+            "created_at": "Sat Jul 14 12:04:38 +0000 2007",
+            "default_profile": false,
+            "default_profile_image": false,
+            "description": "A unique event to educate developers on current practices, methodologies and technology trends in variety of platforms and development languages",
+            "entities": {
+                "description": {
+                    "urls": []
+                },
+                "url": {
+                    "urls": [
+                        {
+                            "display_url": "codemash.org",
+                            "expanded_url": "http://www.codemash.org/",
+                            "indices": [
+                                0,
+                                22
+                            ],
+                            "url": "http://t.co/ofFpFHHpzb"
+                        }
+                    ]
+                }
+            },
+            "favourites_count": 14,
+            "follow_request_sent": false,
+            "followers_count": 4605,
+            "following": false,
+            "friends_count": 545,
+            "geo_enabled": false,
+            "id": 7469772,
+            "id_str": "7469772",
+            "is_translation_enabled": false,
+            "is_translator": false,
+            "lang": "en",
+            "listed_count": 266,
+            "location": "Sandusky, Ohio",
+            "name": "codemash",
+            "notifications": false,
+            "profile_background_color": "9AE4E8",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/575897195/CodeMashLogoSquare_normal.png",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/575897195/CodeMashLogoSquare_normal.png",
+            "profile_link_color": "0000FF",
+            "profile_sidebar_border_color": "87BC44",
+            "profile_sidebar_fill_color": "E0FF92",
+            "profile_text_color": "000000",
+            "profile_use_background_image": true,
+            "protected": false,
+            "screen_name": "codemash",
+            "status": {
+                "contributors": null,
+                "coordinates": null,
+                "created_at": "Fri Jan 24 23:37:19 +0000 2014",
+                "entities": {
+                    "hashtags": [],
+                    "symbols": [],
+                    "urls": [
+                        {
+                            "display_url": "bit.ly/1gahbd1",
+                            "expanded_url": "http://bit.ly/1gahbd1",
+                            "indices": [
+                                105,
+                                127
+                            ],
+                            "url": "http://t.co/te6lVlcwRl"
+                        }
+                    ],
+                    "user_mentions": []
+                },
+                "favorite_count": 7,
+                "favorited": false,
+                "geo": null,
+                "id": 426861299143020544,
+                "id_str": "426861299143020544",
+                "in_reply_to_screen_name": null,
+                "in_reply_to_status_id": null,
+                "in_reply_to_status_id_str": null,
+                "in_reply_to_user_id": null,
+                "in_reply_to_user_id_str": null,
+                "lang": "en",
+                "place": null,
+                "possibly_sensitive": false,
+                "retweet_count": 6,
+                "retweeted": false,
+                "source": "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
+                "text": "Want to head back to the Kalahari when they don't have snow? Check out this deal for CodeMash attendees! http://t.co/te6lVlcwRl!",
+                "truncated": false
+            },
+            "statuses_count": 1996,
+            "time_zone": "Eastern Time (US & Canada)",
+            "url": "http://t.co/ofFpFHHpzb",
+            "utc_offset": -18000,
+            "verified": false
+        },
+        {
+            "contributors_enabled": false,
+            "created_at": "Wed Apr 25 10:27:29 +0000 2007",
+            "default_profile": false,
+            "default_profile_image": false,
+            "description": "RailsConf, the largest gathering of Rubyists and Rails developers worldwide, will be in Chicago, IL. Join us April 22 - 25, 2014!",
+            "entities": {
+                "description": {
+                    "urls": []
+                },
+                "url": {
+                    "urls": [
+                        {
+                            "display_url": "railsconf.com",
+                            "expanded_url": "http://railsconf.com",
+                            "indices": [
+                                0,
+                                22
+                            ],
+                            "url": "http://t.co/VAMeLRYWbl"
+                        }
+                    ]
+                }
+            },
+            "favourites_count": 53,
+            "follow_request_sent": false,
+            "followers_count": 11721,
+            "following": false,
+            "friends_count": 2773,
+            "geo_enabled": false,
+            "id": 5493662,
+            "id_str": "5493662",
+            "is_translation_enabled": false,
+            "is_translator": false,
+            "lang": "en",
+            "listed_count": 794,
+            "location": "Chicago, IL",
+            "name": "RailsConf 2014",
+            "notifications": false,
+            "profile_background_color": "8F2128",
+            "profile_background_image_url": "http://a0.twimg.com/profile_background_images/438646409/twitter_icon.png",
+            "profile_background_image_url_https": "https://si0.twimg.com/profile_background_images/438646409/twitter_icon.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/418089877951881217/hLjqIGXx_normal.jpeg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/418089877951881217/hLjqIGXx_normal.jpeg",
+            "profile_link_color": "0000FF",
+            "profile_sidebar_border_color": "545553",
+            "profile_sidebar_fill_color": "AC7979",
+            "profile_text_color": "000000",
+            "profile_use_background_image": false,
+            "protected": false,
+            "screen_name": "railsconf",
+            "status": {
+                "contributors": null,
+                "coordinates": null,
+                "created_at": "Mon Jan 27 23:25:05 +0000 2014",
+                "entities": {
+                    "hashtags": [],
+                    "symbols": [],
+                    "urls": [
+                        {
+                            "display_url": "j.mp/1dJg8c8",
+                            "expanded_url": "http://j.mp/1dJg8c8",
+                            "indices": [
+                                90,
+                                112
+                            ],
+                            "url": "http://t.co/KdsGW3znTI"
+                        }
+                    ],
+                    "user_mentions": [
+                        {
+                            "id": 1173459337,
+                            "id_str": "1173459337",
+                            "indices": [
+                                3,
+                                18
+                            ],
+                            "name": "WriteSpeakCode",
+                            "screen_name": "WriteSpeakCode"
+                        },
+                        {
+                            "id": 5493662,
+                            "id_str": "5493662",
+                            "indices": [
+                                78,
+                                88
+                            ],
+                            "name": "RailsConf 2014",
+                            "screen_name": "railsconf"
+                        }
+                    ]
+                },
+                "favorite_count": 0,
+                "favorited": false,
+                "geo": null,
+                "id": 427945384011264000,
+                "id_str": "427945384011264000",
+                "in_reply_to_screen_name": null,
+                "in_reply_to_status_id": null,
+                "in_reply_to_status_id_str": null,
+                "in_reply_to_user_id": null,
+                "in_reply_to_user_id_str": null,
+                "lang": "en",
+                "place": null,
+                "possibly_sensitive": false,
+                "retweet_count": 1,
+                "retweeted": false,
+                "retweeted_status": {
+                    "contributors": null,
+                    "coordinates": null,
+                    "created_at": "Mon Jan 27 20:18:45 +0000 2014",
+                    "entities": {
+                        "hashtags": [],
+                        "symbols": [],
+                        "urls": [
+                            {
+                                "display_url": "j.mp/1dJg8c8",
+                                "expanded_url": "http://j.mp/1dJg8c8",
+                                "indices": [
+                                    70,
+                                    92
+                                ],
+                                "url": "http://t.co/KdsGW3znTI"
+                            }
+                        ],
+                        "user_mentions": [
+                            {
+                                "id": 5493662,
+                                "id_str": "5493662",
+                                "indices": [
+                                    58,
+                                    68
+                                ],
+                                "name": "RailsConf 2014",
+                                "screen_name": "railsconf"
+                            }
+                        ]
+                    },
+                    "favorite_count": 2,
+                    "favorited": false,
+                    "geo": null,
+                    "id": 427898491760037888,
+                    "id_str": "427898491760037888",
+                    "in_reply_to_screen_name": null,
+                    "in_reply_to_status_id": null,
+                    "in_reply_to_status_id_str": null,
+                    "in_reply_to_user_id": null,
+                    "in_reply_to_user_id_str": null,
+                    "lang": "en",
+                    "place": null,
+                    "possibly_sensitive": false,
+                    "retweet_count": 1,
+                    "retweeted": false,
+                    "source": "<a href=\"http://bufferapp.com\" rel=\"nofollow\">Buffer</a>",
+                    "text": "Awesome CFP info page with guidelines + lots of info from @railsconf! http://t.co/KdsGW3znTI",
+                    "truncated": false
+                },
+                "source": "<a href=\"http://itunes.apple.com/us/app/twitter/id409789998?mt=12\" rel=\"nofollow\">Twitter for Mac</a>",
+                "text": "RT @WriteSpeakCode: Awesome CFP info page with guidelines + lots of info from @railsconf! http://t.co/KdsGW3znTI",
+                "truncated": false
+            },
+            "statuses_count": 1261,
+            "time_zone": "Eastern Time (US & Canada)",
+            "url": "http://t.co/VAMeLRYWbl",
+            "utc_offset": -18000,
+            "verified": false
+        }
+    ]
+}
