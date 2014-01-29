@@ -24,7 +24,7 @@
     </thead>
     <tbody class="list">
       <% @events.each do |event| %>
-      <tr class="<%= event.is_past? ? 'past-event' : '' %><%= event.is_upcoming? ? 'upcoming-event' : '' %>">
+      <tr class="<%= event.is_past? ? 'past-event' : '' %> <%= event.is_upcoming? ? 'upcoming-event' : '' %>">
         <td><%= image_tag(event.logo) %></td>
         <td class="name"><%= link_to(event.name, event.website_url) %></td>
         <td class="description"><%= event.description %></td>

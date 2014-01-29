@@ -22,6 +22,7 @@ class Event < ActiveRecord::Base
   end
 
   def is_upcoming?
-    start_date.present? && start_date <= Date.today + 3.months
+    range = Date.today..Date.today + 3.months
+    start_date.present? && range.cover?(start_date)
   end
 end
