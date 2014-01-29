@@ -1,0 +1,9 @@
+@import 'foundation';
+
+.past-event {
+  text-decoration: line-through;
+}
+
+.upcoming-event {
+  background-color: $info-color;
+}

@@ -1,6 +1,12 @@
 <div class="panel">
   <h3>ls tech-events</h3>
   <p>Message me <%= link_to('@dianagliu', 'https://twitter.com/dianagliu') %> to add or correct any information</p>
+
+  <ul class="inline-list">
+    <li><b>Key:</b></li>
+    <li><span class="upcoming-event">Next 3 months</span></li>
+    <li><span class="past-event">Already happened</span></li>
+  </ul>
 </div>
 
 <div id="events-list">
@@ -18,7 +24,7 @@
     </thead>
     <tbody class="list">
       <% @events.each do |event| %>
-      <tr>
+      <tr class="<%= event.is_past? ? 'past-event' : '' %><%= event.is_upcoming? ? 'upcoming-event' : '' %>">
         <td><%= image_tag(event.logo) %></td>
         <td class="name"><%= link_to(event.name, event.website_url) %></td>
         <td class="description"><%= event.description %></td>
