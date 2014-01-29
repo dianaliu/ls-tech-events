@@ -1,23 +1,34 @@
-<table>
-  <thead>
-    <tr>
-      <th>Logo</th>
-      <th>Name</th>
-      <th>Description</th>
-      <th>Location</th>
-      <th>More Info</th>
-    </tr>
-  </thead>
-  <tbody>
-    <% @events.each do |event| %>
-    <tr>
-      <td><%= image_tag(event.logo) %></td>
-      <td><%= link_to(event.name, event.website_url) %></td>
-      <td><%= event.description %></td>
-      <td><%= event.location %></td>
-      <td><%= link_to('more info', event_path(event)) %></td>
-    </tr>
-    <% end %>
-  </tbody>
-</table>
+<div class="panel">
+  <h5>ls tech-events</h5>
+  <p>Message me @dianagliu to add or correct any information</p>
+</div>
+
+<div id="events-list">
+  <input type="text" class="search" placeholder="Search">
+
+  <table>
+    <thead>
+      <tr>
+        <th>Logo</th>
+        <th><span class="sort" data-sort="name">Name</span></th>
+        <th>Description</th>
+        <th><span class="sort" data-sort="location">Location</span></th>
+        <th>More Info</th>
+      </tr>
+    </thead>
+    <tbody class="list">
+      <% @events.each do |event| %>
+      <tr>
+        <td><%= image_tag(event.logo) %></td>
+        <td class="name"><%= link_to(event.name, event.website_url) %></td>
+        <td class="description"><%= event.description %></td>
+        <td class="location"><%= event.location %></td>
+        <td><%= link_to('more info', event_path(event)) %></td>
+      </tr>
+      <% end %>
+    </tbody>
+  </table>
+
+</div>
+
 
