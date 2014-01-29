@@ -1,20 +1,23 @@
 <table>
-  <tr>
-    <th>Logo</th>
-    <th>Name</th>
-    <th>Description</th>
-    <th>Location</th>
-    <th>More Info</th>
-  </tr>
-
-  <% @events.each do |event| %>
-  <tr>
-    <td><%= image_tag(event.logo) %></td>
-    <td><%= link_to(event.name, event.website_url) %></td>
-    <td><%= event.description %></td>
-    <td><%= event.location %></td>
-    <td><%= link_to('more info', event_path(event)) %></td>
-  </tr>
-  <% end %>
+  <thead>
+    <tr>
+      <th>Logo</th>
+      <th>Name</th>
+      <th>Description</th>
+      <th>Location</th>
+      <th>More Info</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @events.each do |event| %>
+    <tr>
+      <td><%= image_tag(event.logo) %></td>
+      <td><%= link_to(event.name, event.website_url) %></td>
+      <td><%= event.description %></td>
+      <td><%= event.location %></td>
+      <td><%= link_to('more info', event_path(event)) %></td>
+    </tr>
+    <% end %>
+  </tbody>
 </table>
 
