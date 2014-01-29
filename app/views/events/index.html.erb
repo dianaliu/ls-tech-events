@@ -3,9 +3,8 @@
     <th>Logo</th>
     <th>Name</th>
     <th>Description</th>
-    <!-- <th>Type</th> -->
     <th>Location</th>
-    <th>Twitter</th>
+    <th>More Info</th>
   </tr>
 
   <% @events.each do |event| %>
@@ -13,9 +12,8 @@
     <td><%= image_tag(event.logo) %></td>
     <td><%= link_to(event.name, event.website_url) %></td>
     <td><%= event.description %></td>
-    <!-- <td><%= event.event_type %></td> -->
     <td><%= event.location %></td>
-    <td><%= link_to("@#{event.twitter_handle}", "https://www.twitter.com/#{event.twitter_handle}") %></td>
+    <td><%= link_to('more info', event_path(event)) %></td>
   </tr>
   <% end %>
 </table>

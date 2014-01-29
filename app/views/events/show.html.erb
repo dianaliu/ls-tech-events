@@ -1,0 +1,8 @@
+<%= image_tag(@event.logo) %>
+<h3><%= @event.name %></h3>
+<%= link_to(@event.website_url, @event.website_url) %>
+<%= link_to("@#{@event.twitter_handle}", "https://www.twitter.com/#{@event.twitter_handle}") %>
+<p><%= @event.description %></p>
+<p>Type: <%= @event.event_type %></p>
+<p>Start: <%= @event.start_date %></p>
+<p>End: <%= @event.end_date %></p>
