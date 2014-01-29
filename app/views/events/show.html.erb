@@ -6,6 +6,8 @@
   <li class="description"><%= @event.description %></li>
   <li class="bullet-item"><%= link_to(@event.website_url, @event.website_url) %></li>
   <li class="bullet-item"><%= link_to("@#{@event.twitter_handle}", "https://www.twitter.com/#{@event.twitter_handle}") %></li>
-  <li class="bullet-item">Date: <%= @event.start_date %> - <%= @event.end_date %></li>
+  <% if @event.start_date %>
+  <li class="bullet-item"><%= @event.start_date.to_formatted_s(:long) %> - <%= @event.end_date.to_formatted_s(:long) %></li>
+  <% end %>
   <li class="bullet-item"><%= @event.event_type %></li>
 </ul>
