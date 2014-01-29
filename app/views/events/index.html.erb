@@ -1,6 +1,6 @@
 <div class="panel">
   <h3>ls tech-events</h3>
-  <p>Message me <%= link_to('@dianagliu', 'https://twitter.com/dianagliu') %> to add or correct any information</p>
+  <p>Message me <%= link_to('@dianagliu', 'https://twitter.com/dianagliu') %> to add or correct any information. View as <%= link_to('json', export_events_path(format: :json)) %> or <%= link_to('xml', export_events_path(format: :xml)) %>.</p>
 
   <ul class="inline-list">
     <li><b>Key:</b></li>
