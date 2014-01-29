@@ -26,11 +26,10 @@ gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
 
-gem 'omniauth'
-gem 'omniauth-twitter'
+# Access twitter client
 gem 'twitter'
-gem 'httparty'
 
+# Use Foundation for styling
 gem 'foundation-rails'
 
 group :production do
