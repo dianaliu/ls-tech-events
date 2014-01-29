@@ -29,6 +29,7 @@ gem 'jbuilder', '~> 1.2'
 gem 'omniauth'
 gem 'omniauth-twitter'
 gem 'twitter'
+gem 'httparty'
 
 gem 'foundation-rails'
 
