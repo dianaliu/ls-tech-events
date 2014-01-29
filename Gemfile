@@ -30,6 +30,8 @@ gem 'omniauth'
 gem 'omniauth-twitter'
 gem 'twitter'
 
+gem 'foundation-rails'
+
 group :production do
   gem 'pg'
 end
