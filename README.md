@@ -1,5 +1,5 @@
 ## About
-Tech conferences and events pulled from [a twitter list](https://twitter.com/dianagliu/conferences/members).
+Tech conferences and events pulled from [a twitter list](https://twitter.com/dianagliu/conferences/members). Updates every Friday.
 
 ## Getting Started
 `rake db:seed` or `rake update_from_twitter` if you have credentials.
