@@ -20,6 +20,9 @@ module LsTechEvents
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     # config.i18n.default_locale = :de
 
+    # Switch to new behavior to avoid deprecation warning.
+    config.i18n.enforce_available_locales = true
+
     config.assets.paths << "#{Rails.root}/vendor/assets/fonts"
   end
 end
