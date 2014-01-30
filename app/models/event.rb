@@ -1,6 +1,13 @@
 class Event < ActiveRecord::Base
   validates :name, presence: true, uniqueness: true
   validates :twitter_handle, uniqueness: true
+  validate :ends_after_starts
+
+  def ends_after_starts
+    if start_date && end_date && end_date < start_date
+      errors.add(:end_date, "must end after start date")
+    end
+  end
 
   def as_json
     {
