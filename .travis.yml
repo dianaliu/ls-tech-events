@@ -1,0 +1,8 @@
+language: ruby
+rvm:
+  - 2.1.0
+script: rake spec
+before_script:
+  - psql -c 'create database myapp_test;' -U postgres
+before_install:
+  - cp config/database.travis.yml config/database.yml
