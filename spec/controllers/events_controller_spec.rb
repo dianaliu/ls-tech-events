@@ -2,7 +2,7 @@ require 'spec_helper'
 
 describe EventsController do
   before :each do
-    @event = Event.create({ :name => 'yolo' })
+    @event = Event.create({ :twitter_handle => 'yolo' })
   end
 
   describe 'GET index' do

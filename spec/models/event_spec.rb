@@ -4,17 +4,17 @@ describe Event do
 
   describe ".create" do
     it "doesn't create duplicates" do
-      event1 = Event.create(:name => "star")
-      event2 = Event.create(:name => "star")
+      event1 = Event.create(:twitter_handle => "star")
+      event2 = Event.create(:twitter_handle => "star")
       expect(Event.count).to eq(1)
 
-      event3 = Event.create(:name => "star light", :twitter_handle => "star")
-      event4 = Event.create(:name => "star bright", :twitter_handle => "star")
+      event3 = Event.create(:twitter_handle => "star light", :name => "star")
+      event4 = Event.create(:twitter_handle => "star bright", :name => "star")
       expect(Event.count).to eq(2)
     end
 
     it "should end after it starts" do
-      event = Event.create(:name => "timey wimey", :start_date => Date.today, :end_date => Date.today - 3)
+      event = Event.create(:twitter_handle => "timey wimey", :start_date => Date.today, :end_date => Date.today - 3)
       expect(Event.count).to eq(0)
       expect(event.errors.count).to eq(1)
     end

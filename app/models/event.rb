@@ -1,6 +1,6 @@
 class Event < ActiveRecord::Base
-  validates :name, presence: true, uniqueness: true
-  validates :twitter_handle, uniqueness: true
+  validates :twitter_handle, presence: true, uniqueness: true
+  validates :name, uniqueness: true
   validate :ends_after_starts
 
   def ends_after_starts
