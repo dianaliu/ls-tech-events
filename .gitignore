@@ -15,4 +15,8 @@
 /log/*.log
 /tmp
 
+# Ignore config file
+environment_variables.rb
+
+# Ignore OS files
 .DS_Store
