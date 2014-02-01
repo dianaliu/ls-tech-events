@@ -1,0 +1,12 @@
+Hey Diana,
+
+<% if @changes[:created].present? %>
+New Events: <%= @changes[:created].collect(&:name).join(", ") %>
+<% end %>
+
+<% if @changes[:updated].present? %>
+Updated Events: <%= @changes[:updated].collect(&:name).join(", ") %>
+<% end %>
+
+Go look at them: <%= root_url %>
+

@@ -24,5 +24,7 @@ module LsTechEvents
     config.i18n.enforce_available_locales = true
 
     config.assets.paths << "#{Rails.root}/vendor/assets/fonts"
+
+    config.action_mailer.default_url_options = { host: 'ls-tech-events.herokuapp.com' }
   end
 end

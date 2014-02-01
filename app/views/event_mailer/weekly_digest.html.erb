@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <h1>Hey Diana,</h1>
+
+  <% if @changes[:created].present? %>
+  <h2>New Events</h2>
+  <ul>
+    <% @changes[:created].each do |e| %>
+    <li><%= e.name %></li>
+    <% end %>
+  </ul>
+  <% end %>
+
+  <% if @changes[:updated].present? %>
+  <h2>Updated Events: </h2>
+  <ul>
+    <% @changes[:updated].each do |e| %>
+    <li>
+      <%= e.name %> has changed:
+      <% e.previous_changes.each do |k, v| %>
+      <%= "#{k}: #{v.join(' -> ')}" %>
+      <% end %>
+    </li>
+    <% end %>
+  </ul>
+  <% end %>
+
+  <%= link_to "Go look at them.", root_url %>
+</body>
+</html>
