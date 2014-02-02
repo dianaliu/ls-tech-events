@@ -29,5 +29,4 @@ LsTechEvents::Application.configure do
 
   # Fake sending emails
   config.action_mailer.delivery_method = :file
-  config.action_mailer.default_options = {from: 'no-reply@example.com'}
 end

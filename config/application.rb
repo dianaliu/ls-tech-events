@@ -26,5 +26,6 @@ module LsTechEvents
     config.assets.paths << "#{Rails.root}/vendor/assets/fonts"
 
     config.action_mailer.default_url_options = { host: 'ls-tech-events.herokuapp.com' }
+    config.action_mailer.default_options = { from: 'no-reply@ls-tech-events.herokuapp.com' }
   end
 end
