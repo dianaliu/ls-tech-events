@@ -1,0 +1,2 @@
+service: travis-ci
+repo_token: ENV['COVERALLS_TOKEN']

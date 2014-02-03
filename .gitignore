@@ -16,7 +16,10 @@
 /tmp
 
 # Ignore config file
-environment_variables.rb
+/config/initializers/environment_variables.rb
+
+# Ignore coveralls generated files
+/coverage
 
 # Ignore OS files
 .DS_Store
