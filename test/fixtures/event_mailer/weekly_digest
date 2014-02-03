@@ -1,0 +1,29 @@
+Hey Diana,
+
+New Events: black pot
+
+Updated Events: black kettle
+
+Go look at them: http://ls-tech-events.herokuapp.com/
+
+<!DOCTYPE html>
+<html>
+<body>
+  <h1>Hey Diana,</h1>
+
+  <h2>New Events:</h2>
+  <ul>
+    <li>black pot</li>
+  </ul>
+
+  <h2>Updated Events:</h2>
+  <ul>
+    <li>
+      black kettle has changed:
+      name: kettle -&gt; black kettle
+    </li>
+  </ul>
+
+  <a href="http://ls-tech-events.herokuapp.com/">Go look at them.</a>
+</body>
+</html>
