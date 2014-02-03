@@ -10,6 +10,7 @@ describe EventMailer do
     end
 
     it "sends the correct content" do
+      stub_const('ENV', {'ADMIN_EMAIL' => 'diana.g.liu@gmail.com'})
       pot = Event.create(:twitter_handle => 'pot', :name => "black pot")
       kettle = Event.create(:twitter_handle => 'kettle', :name => "kettle")
       kettle.update_attribute(:name, 'black kettle')
