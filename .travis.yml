@@ -1,8 +1,18 @@
 language: ruby
 rvm:
-  - 2.1.0
+- 2.1.0
 script: rake spec
 before_script:
-  - psql -c 'create database myapp_test;' -U postgres
+- psql -c 'create database myapp_test;' -U postgres
 before_install:
-  - cp config/database.travis.yml config/database.yml
+- cp config/database.travis.yml config/database.yml
+env:
+  global:
+  - secure: JA04Gz9bihuMaN2xg2ayU6i1jVfc83XkOx3I/Xy+iwryeTvYIJ9kdYwp3GjS1Ue+7FnVVfkRUU07Jbh8xlNOy/r+4AiIiVjQo8eV86Ubt0V6BiFFuthlhYlyc2UXhz5GJpl/7plV4u6RyNc+/SYN1vhB2HG1ox4QEfipGNrOjzM=
+  - secure: SDph/voq6H8TFcb8zVMX22ymioUj0VL0DFZlWM1nn96Yi/SQlnaDKOUEO9H4LUGcmbA+DsOPmAXgVkyM30yoJt1zM5DzYeKBRetxx0EJ9nqp4aJDSH1zp1GM0S/YpGRo8T/IWqQOtx0Tlxg6A6KYg4+ioQfH/wLwz5c2H+g1f7M=
+  - secure: MuxuqL8eRTkMsPuVHLnfqgGAk6FlJYL0MeLJZDF/F2xxp8hEbMP3yBEJELEMjsDDW52fXliRM8886dY0PMvFCHGlADUiga99Lqq9YjKgHw9m15u6N9dJaniUiz3GdYYiHXLQJayP/xQKZkbsj9ri/UvYwgAbNLyw/V6aQoBDNoc=
+  - secure: ZXkpsZSuQTuD6qWl08GuXO+J2gqsF9kqRyUUiKKdPhTWRpj4vXkPgdsf2iXmZlrTx7n6Q1RYAzhhvCrNpMMOl5AZyLqbp2i7bEiJN7MFij6as5PKb28B0xDEadrX72bjOKzm6oGNNcH1RCUTJPME7q/ASkmmoLCfefvaWL7SXgc=
+  - secure: a9rSfBOSxt/rLhx+qlIECOOJzVoxFovdEJZ9RBl0BseEncWvMbSon7XSImqlh6rL/NOFbbCklHKSIASkZj13LDWyfPzoHb2oBVQje9uqSSus4jVM6NavwG28Hg6G7HWYFa5k/uP8Ugb754cAgBrAUeSvby2t+eP9wEL5/xKdrEo=
+  - secure: H8Sd5HY1IArpg2Eqhg72JxncmXMi4PKWjy0+YNs8IC/s0qgP/RsntBe/VCDQKj6q9Cy6yzpRXx/SEL5m3183/AH0VMLV4mPKT1KBfweMmg+LGJrcwirKxS46zx06neat0zhIm7TDs3QuPqYZwxNcnUqQflmPctcSsRDBBZuKl3A=
+  - secure: VeI7OuFm/sva8q0KrgNlnh8yA85UcMLJ56VhZJADDB4q+ELSGp2hh5SmEFmulS1QOPWPhlOChFz046biRPwzw1X1aehxZ/bWoJWeAKI51gCiKh8wygA83fsQh+ZHxMzrJTkgmmW4Ejicz02TV+QC6KJZBD3bNaTp6NfiAbCeQTY=
+  - secure: TO4qtv/Gw1vMi/smevXVbk4cd9dmaCIb7lfU1q6YGKaJCwnL3GzgsQyqfYeg3o8BA8w6lrcLayDDYJb0/3++RNKsRoV1xpSsfJ3GAvCYcv0di21lxcKrA58iEonp3o2ozhxnyJ9K9B+rE4IAk8YGyrDostnusXqRdNOXLXg6yHQ=
