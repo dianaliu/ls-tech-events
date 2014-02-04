@@ -32,6 +32,9 @@ gem 'twitter'
 # Use Foundation for styling
 gem 'foundation-rails'
 
+# Send admin and user digest emails
+gem 'mandrill-api', '~> 1.0.49'
+
 group :production do
   gem 'pg'
   gem 'rails_12factor'

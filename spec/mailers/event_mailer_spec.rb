@@ -28,4 +28,8 @@ describe EventMailer do
       expect(fixture).to include(email.html_part.decoded)
     end
   end
+
+  describe ".user_digest" do
+    pending "Not sure how to get mandrill send_template to use ActionMailer"
+  end
 end

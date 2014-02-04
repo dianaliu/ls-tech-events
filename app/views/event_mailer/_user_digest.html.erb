@@ -1,0 +1,6 @@
+<b>Events in the next 3 - 6 months:</b>
+<ul>
+  <% @events.each do |e| %>
+  <li><%= link_to(e.name, e.website_url) %> <% if e.start_date.present? %>on <%= e.start_date.to_s(:long_ordinal) %><% end %></li>
+  <% end %>
+</ul>
