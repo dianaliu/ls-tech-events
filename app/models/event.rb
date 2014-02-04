@@ -32,4 +32,8 @@ class Event < ActiveRecord::Base
     range = Date.today..Date.today + 3.months
     start_date.present? && range.cover?(start_date)
   end
+
+  def set_dates(start_date, end_date=nil)
+    update_attributes(:start_date => start_date, :end_date => end_date)
+  end
 end

@@ -80,4 +80,26 @@ describe Event do
     end
   end
 
+  describe '#set_dates' do
+    it "sets start_date and end_date" do
+      e = Event.create(:twitter_handle => 'spring')
+      start_date = Date.today
+      end_date = Date.today + 5
+
+      e.set_dates(start_date, end_date)
+
+      expect(e.start_date).to eq(start_date)
+      expect(e.end_date).to eq(end_date)
+    end
+
+    it "sets start_date" do
+      e = Event.create(:twitter_handle => 'fall')
+      start_date = Date.today
+
+      e.set_dates(start_date)
+
+      expect(e.start_date).to eq(start_date)
+    end
+  end
+
 end
