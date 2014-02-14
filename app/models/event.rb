@@ -36,4 +36,12 @@ class Event < ActiveRecord::Base
   def set_dates(start_date, end_date=nil)
     update_attributes(:start_date => start_date, :end_date => end_date)
   end
+
+  def formatted_start_and_end_date(format=:long)
+    if start_date && end_date
+      start_date.to_formatted_s(format) + " - " + end_date.to_formatted_s(format)
+    elsif start_date
+      start_date.to_formatted_s(format)
+    end
+  end
 end

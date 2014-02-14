@@ -102,4 +102,32 @@ describe Event do
     end
   end
 
+  describe '#formatted_start_and_end_date' do
+    before :each do
+      @event = Event.create(:twitter_handle => "hackathon")
+    end
+
+    it "returns empty for no start date" do
+      expect(@event.formatted_start_and_end_date).to be_nil
+    end
+
+    it "formats with only a start date" do
+      @event.update_attribute(:start_date, Date.today)
+
+      expect(@event.formatted_start_and_end_date).to eq("#{Date.today.to_formatted_s(:long)}")
+    end
+
+    it "formats with start and end date" do
+      @event.update_attributes(:start_date => Date.today, :end_date => Date.today + 1)
+
+      expect(@event.formatted_start_and_end_date).to eq("#{Date.today.to_formatted_s(:long)} - #{(Date.today + 1).to_formatted_s(:long)}")
+    end
+
+    it "lets you set a format" do
+      @event.update_attribute(:start_date, Date.today)
+
+      expect(@event.formatted_start_and_end_date(:short)).to eq("#{Date.today.to_formatted_s(:short)}")
+    end
+  end
+
 end
