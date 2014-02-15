@@ -2,7 +2,7 @@
 Tech conferences and events pulled from [a twitter list](https://twitter.com/dianagliu/conferences/members). Updates every Friday.
 
 ## Getting Started
-`rake db:seed` or `rake update_from_twitter` if you have credentials.
+`rake db:migrate` and `rake db:seed` and `rails s`
 
 For just the data, `curl http://ls-tech-events.herokuapp.com/events/export.json` or `curl http://ls-tech-events.herokuapp.com/events/export.xml`
 
