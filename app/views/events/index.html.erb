@@ -23,30 +23,7 @@
     </ul>
   </div>
 
-  <table>
-    <thead>
-      <tr>
-        <th>Logo</th>
-        <th><i class="fi-filter"></i> <span class="sort" data-sort="name">Name</span></th>
-        <th>Date</th>
-        <th>Description</th>
-        <th><i class="fi-filter"></i> <span class="sort" data-sort="location">Location</span></th>
-        <th>More Info</th>
-      </tr>
-    </thead>
-    <tbody class="list">
-      <% @events.each do |event| %>
-      <tr class="<%= event.is_past? ? 'past-event' : '' %> <%= event.is_upcoming? ? 'upcoming-event' : '' %>">
-        <td><%= image_tag(event.logo) %></td>
-        <td class="name"><%= link_to(event.name, event.website_url) %></td>
-        <td class="date"><%= event.formatted_start_and_end_date %></td>
-        <td class="description"><%= event.description %></td>
-        <td class="location"><%= event.location %></td>
-        <td><%= link_to('more info', event_path(event)) %></td>
-      </tr>
-      <% end %>
-    </tbody>
-  </table>
+  <%= render 'table' %>
 
 </div>
 

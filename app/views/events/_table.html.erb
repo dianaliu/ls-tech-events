@@ -1,0 +1,29 @@
+<table>
+  <thead>
+    <tr>
+      <% if current_user %>
+      <th>Save?</th>
+      <% end %>
+      <th><i class="fi-filter"></i> <span class="sort" data-sort="name">Name</span></th>
+      <th>Date</th>
+      <th>Description</th>
+      <th><i class="fi-filter"></i> <span class="sort" data-sort="location">Location</span></th>
+    </tr>
+  </thead>
+  <tbody class="list">
+    <% @events.each do |event| %>
+    <tr class="<%= event.is_past? ? 'past-event' : '' %> <%= event.is_upcoming? ? 'upcoming-event' : '' %>">
+      <% if current_user %>
+      <td><%= render partial: 'events/add_or_remove_from_user', locals: { :@event => event } %></td>
+      <% end %>
+      <td class="name text-center">
+        <%= link_to(image_tag(event.logo), event_path(event), :class => 'th') %>
+          <br />
+        <%= link_to(event.name, event_path(event)) %></td>
+      <td class="date"><%= event.formatted_start_and_end_date %></td>
+      <td class="description"><%= event.description %> (<%= link_to event.website_url %>)</td>
+      <td class="location"><%= event.location %></td>
+    </tr>
+    <% end %>
+  </tbody>
+</table>

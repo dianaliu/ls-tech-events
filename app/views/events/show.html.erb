@@ -4,6 +4,7 @@
   <li class="price">
     <%= image_tag(@event.logo) %>
     <%= @event.name %>
+    <%= render 'add_or_remove_from_user' %>
   </li>
   <li class="description"><%= @event.description %></li>
   <li class="bullet-item"><%= link_to(@event.website_url, @event.website_url) %></li>

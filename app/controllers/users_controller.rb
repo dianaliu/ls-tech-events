@@ -19,6 +19,16 @@ class UsersController < ApplicationController
     @user = User.find(params[:id])
   end
 
+  def update
+    event = Event.find(params[:user][:events][:id])
+    if params[:user][:events][:add].to_i.zero?
+      current_user.events.delete(event)
+    else
+      current_user.events << event
+    end
+    redirect_to :back
+  end
+
   private
   def user_params
     params.require(:user).permit(:name, :email, :password, :password_confirmation)

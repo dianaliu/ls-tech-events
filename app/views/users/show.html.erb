@@ -1,14 +1,10 @@
-<% content_for :title, "#{@user.name_or_email}'s Events" %>
+<% content_for :title, "Your Events" %>
 
-<h1>Events for <%= @user.name_or_email %></h1>
+<h1>Your Events</h1>
 
 <% if !@user.events.empty? %>
-<p>You will be emailed at <%= @user.email %> about the following events:</p>
-<ul>
-  <% @user.events.each do |e| %>
-  <li><%= e.name %> on <%= e.formatted_start_and_end_date %></li>
-  <% end %>
-</ul>
+<p>You will be emailed at <b><%= @user.email %></b> about the following events:</p>
+  <%= render partial: 'events/table', locals: { :@events => @user.events} %>
 <% else %>
 <p>You have not selected any events yet. <%= link_to 'You really should.', root_path %></p>
 <% end %>

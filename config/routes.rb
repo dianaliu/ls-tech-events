@@ -5,7 +5,7 @@ LsTechEvents::Application.routes.draw do
   get "login" => "sessions#new", :as => "login"
   get "signup" => "users#new", :as => "signup"
 
-  resources :users, :only => [:create, :show]
+  resources :users
 
   resources :sessions
 
