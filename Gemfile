@@ -26,7 +26,7 @@ gem 'turbolinks', '>= 2.2.1'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '>= 2.0.2'
 
-# Access twitter client
+# Access twitter client to retrieve list
 gem 'twitter'
 
 # Use Foundation for styling
@@ -34,6 +34,9 @@ gem 'foundation-rails'
 
 # Send admin and user digest emails
 gem 'mandrill-api', '~> 1.0.49'
+
+# Simple Authentication
+gem 'sorcery'
 
 group :production do
   gem 'pg'

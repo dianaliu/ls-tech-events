@@ -1,4 +1,6 @@
 class Event < ActiveRecord::Base
+  has_and_belongs_to_many :users
+
   validates :twitter_handle, presence: true, uniqueness: true
   validates :name, uniqueness: true
   validate :ends_after_starts

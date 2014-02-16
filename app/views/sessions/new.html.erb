@@ -1,0 +1,33 @@
+<div class="panel">
+  <div class="row">
+    <div class="large-8 large-centered column">
+      <h2>Welcome back</h2>
+
+      <%= form_tag sessions_path do %>
+      <div class="row">
+        <div class="columns">
+          <%= text_field_tag :email, nil, :placeholder => 'Email' %>
+        </div>
+      </div>
+
+      <div class="row">
+       <div class="columns">
+         <%= password_field_tag :password, nil, :placeholder => 'Password' %>
+       </div>
+      </div>
+
+      <div class="row">
+        <div class="columns">
+          <%= submit_tag "OK", :class => "button tiny right" %>
+
+          <%= check_box_tag :remember_me, nil, true %>
+          <%= label_tag 'Remember Me', nil, :class=> 'inline' %>
+        </div>
+      </div>
+      <% end %>
+
+    </div>
+  </div>
+</div>
+
+

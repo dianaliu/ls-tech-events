@@ -1,0 +1,13 @@
+<h1>Events for <%= @user.name_or_email %></h1>
+
+<% if !@user.events.empty? %>
+<p>You will be emailed at <%= @user.email %> about the following events:</p>
+<ul>
+  <% @user.events.each do |e| %>
+  <li><%= e.name %> on <%= e.formatted_start_and_end_date %></li>
+  <% end %>
+</ul>
+<% else %>
+<p>You have not selected any events yet. <%= link_to 'You really should.', root_path %></p>
+<% end %>
+

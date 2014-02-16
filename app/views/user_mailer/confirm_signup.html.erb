@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <h1>Hey <%= @user.name_or_email %>,</h1>
+
+  <p>Thanks for trying out <%= link_to "ls tech-events", root_url %>.</p>
+
+  <% if @user.events.empty? %>
+  <p>Pick some events and you'll get a reminder a few months before they happen.</p>
+  <p>Check these out:</p>
+  <ul>
+    <% @events.each do |e| %>
+    <li><%= link_to(e.name, event_url(e)) %> <% if e.start_date.present? %>on <%= e.start_date.to_s(:long_ordinal) %><% end %></li>
+    <% end %>
+  </ul>
+  <% else %>
+  <p>You'll get a reminder a few months beforehand for the following events:</p>
+  <ul>
+    <% @user.events.each do |e| %>
+    <li><%= link_to(e.name, e.website_url) %> <% if e.start_date.present? %>on <%= e.start_date.to_s(:long_ordinal) %><% end %></li>
+    <% end %>
+  </ul>
+  <% end %>
+
+  <p><%= link_to('Unsubscribe', '#') %> or <%= link_to('update your settings', '#') %> at any time.</p>
+
+  <p>Thanks,</p>
+  <p>Diana, <%= link_to('@dianagliu', 'https://twitter.com/dianagliu') %></p>
+</body>
+</html>

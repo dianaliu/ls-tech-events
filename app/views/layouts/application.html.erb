@@ -13,7 +13,37 @@
   </head>
 
   <body>
+    <nav class="top-bar" data-topbar>
+      <ul class="title-area">
+        <li class="name">
+          <h1><%= link_to 'Tech Events, Updated Weekly', root_url %></h1>
+        </li>
+        <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
+      </ul>
+
+      <section class="top-bar-section">
+        <ul class="right">
+          <% if current_user %>
+          <li><%= link_to current_user.name_or_email, user_path(current_user) %></li>
+          <li><%= link_to 'Log Out', logout_path %></li>
+          <% else %>
+          <li><%= link_to "Sign up", signup_path %></li>
+          <li><%= link_to "Log in", login_path %></li>
+          <% end %>
+        </ul>
+      </section>
+    </nav>
+
     <div class="row">
+      <% if !flash.empty? %>
+      <div data-alert class="alert-box success radius">
+        <% flash.each do |key, value| %>
+          <%= content_tag(:span, value, :class => "flash #{key}") %>
+        <% end %>
+        <a href="#" class="close">&times;</a>
+      </div>
+      <% end %>
+
       <%= yield %>
     </div>
 

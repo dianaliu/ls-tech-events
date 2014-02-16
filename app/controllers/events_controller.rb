@@ -1,6 +1,8 @@
 class EventsController < ApplicationController
   def index
+    # Hm, do we still want this to be root
     @events = Event.all
+    @user = User.new
   end
 
   def show

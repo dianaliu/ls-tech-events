@@ -1,6 +1,5 @@
 <div class="panel">
-  <h3>ls tech-events</h3>
-  <p>Upcoming tech events, updated weekly.</p>
+  <h3>Tech events, updated weekly.</h3>
   <p>Message me <%= link_to('@dianagliu', 'https://twitter.com/dianagliu') %> to add or correct any information. View as <%= link_to('json', export_events_path(format: :json)) %> or <%= link_to('xml', export_events_path(format: :xml)) %>.</p>
 
   <ul class="inline-list">
@@ -10,8 +9,12 @@
   </ul>
 </div>
 
+<% if !current_user %>
+  <%= render :template => 'users/new' %>
+<% end %>
+
 <div id="events-list">
-  <input type="text" class="search" placeholder="Search">
+  <input type="text" class="search" placeholder="Search Events">
 
   <table>
     <thead>
