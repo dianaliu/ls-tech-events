@@ -1,9 +1,15 @@
 <% content_for :title, "Your Events" %>
 
+<% if current_user == @user %>
 <h1>Your Events</h1>
+<% else %>
+<h1><%= @user.name_or_email %>'s Events</h1>
+<% end %>
 
 <% if !@user.events.empty? %>
+<% if current_user == @user %>
 <p>You will be emailed at <b><%= @user.email %></b> about the following events:</p>
+<% end %>
   <%= render partial: 'events/table', locals: { :@events => @user.events} %>
 <% else %>
 <p>You have not selected any events yet. <%= link_to 'You really should.', root_path %></p>
