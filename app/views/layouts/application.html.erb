@@ -24,10 +24,12 @@
       <section class="top-bar-section">
         <ul class="right">
           <% if current_user %>
+          <li class="divider"></li>
           <li><%= link_to current_user.name_or_email, user_path(current_user) %></li>
+          <li class="divider"></li>
           <li><%= link_to 'Log Out', logout_path %></li>
           <% else %>
-          <li><%= link_to "Sign up", signup_path %></li>
+          <li><%= link_to "Sign up", signup_path, :class => 'button' %></li>
           <li><%= link_to "Log in", login_path %></li>
           <% end %>
         </ul>
