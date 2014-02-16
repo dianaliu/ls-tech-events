@@ -1,7 +1,9 @@
+<% content_for :title, @event.name %>
+
 <ul class="pricing-table">
   <li class="price">
     <%= image_tag(@event.logo) %>
-    Craft Conference
+    <%= @event.name %>
   </li>
   <li class="description"><%= @event.description %></li>
   <li class="bullet-item"><%= link_to(@event.website_url, @event.website_url) %></li>
