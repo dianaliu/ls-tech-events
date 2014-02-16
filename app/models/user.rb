@@ -6,6 +6,10 @@ class User < ActiveRecord::Base
   validates :password, presence: true, :on => :create
   validates_confirmation_of :password
 
+  def to_param
+    name.present? ? "#{id}-#{name.gsub(/[^0-9a-z]/i, '-')}" : "#{id}"
+  end
+
   def name_or_email
     name.present? ? name : email
   end
