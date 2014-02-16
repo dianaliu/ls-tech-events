@@ -14,4 +14,8 @@ LsTechEvents::Application.routes.draw do
       get :export, :defaults => { :format => 'json' }
     end
   end
+
+  scope :module => 'welcome' do
+    get 'about'
+  end
 end
