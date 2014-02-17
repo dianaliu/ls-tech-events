@@ -20,6 +20,8 @@ class UsersController < ApplicationController
   end
 
   def update
+    current_user.update_attributes(params[:user])
+
     event = Event.find(params[:user][:events][:id])
     if params[:user][:events][:add].to_i.zero?
       current_user.events.delete(event)
@@ -27,6 +29,13 @@ class UsersController < ApplicationController
       current_user.events << event
     end
     redirect_to :back
+  end
+
+  def edit
+    # redirect_to :back
+  end
+
+  def destroy
   end
 
   private

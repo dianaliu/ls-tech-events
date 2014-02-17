@@ -1,0 +1,18 @@
+<h1>Settings</h1>
+
+<%= form_for current_user do |f| %>
+  <%= f.label :name %>
+  <%= f.text_field :name, :value => current_user.name %>
+
+  <%= f.label :email %>
+  <%= f.text_field :email, :value => current_user.email, :readonly => true %>
+
+  <%= f.submit "Update", :class => "button tiny" %>
+<% end %>
+
+<hr />
+
+<%= form_for current_user, :method => :delete do |f| %>
+  <%= f.submit "Delete my account*", :class => "button tiny alert" %>
+  <small>*Can not be undone</small>
+<% end %>
