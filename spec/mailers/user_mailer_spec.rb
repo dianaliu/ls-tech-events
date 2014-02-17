@@ -17,4 +17,8 @@ describe UserMailer do
       expect(@email.body.decoded).to include('Unsubscribe')
     end
   end
+
+  describe ".events_reminder" do
+    pending "Not sure how to get mandrill send_template to use ActionMailer"
+  end
 end
