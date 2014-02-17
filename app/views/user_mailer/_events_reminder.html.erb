@@ -1,6 +1,6 @@
-<b>Events in the next 3 - 6 months:</b>
+<b>Events in the next 3 months:</b>
 <ul>
   <% @events.each do |e| %>
-  <li><%= link_to(e.name, e.website_url) %> <% if e.start_date.present? %>on <%= e.formatted_start_and_end_date %><% end %></li>
+  <li><%= link_to(e.name, event_url(e)) %> <% if e.start_date.present? %>on <%= e.formatted_start_and_end_date %><% end %></li>
   <% end %>
 </ul>
