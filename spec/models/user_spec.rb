@@ -30,4 +30,31 @@ describe User do
       expect(user.name_or_email).to eq(user.email)
     end
   end
+
+  describe '#events.upcoming' do
+    before :each do
+      @user = User.create(:email => 'lestrade@gmail.com', :password => 'bollocks')
+      @event = Event.create(:twitter_handle => '@mi6')
+    end
+
+    it 'does not return past events' do
+      @event.update_attribute(:start_date, 1.month.ago)
+      @user.events << @event
+      expect(@user.events.upcoming).to be_empty
+
+    end
+
+    it 'does not return far future events' do
+      @event.update_attribute(:start_date, 5.months.from_now)
+      @user.events << @event
+      expect(@user.events.upcoming).to be_empty
+    end
+
+    it 'returns events in the next 3 months' do
+      @event.update_attribute(:start_date, 3.months.from_now.end_of_month)
+      @user.events << @event
+      expect(@user.events.upcoming).to_not be_empty
+      expect(@user.events.upcoming.first.id).to eq(@event.id)
+    end
+  end
 end
