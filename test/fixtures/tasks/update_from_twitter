@@ -1,0 +1,14 @@
+[{"id": 1,
+"name": "Craft Conference",
+"description": "Join Craft to learn which tools, methods, practices should be part of the toolbox of a modern developer/company, and to have a compass on new trends and topics.",
+"event_type": "Conference",
+"location": "Budapest, Hungary April 23-25",
+"start_date": "2014-04-23",
+"end_date": "2014-04-25",
+"screen_name": "CraftConf",
+"entities": {
+  "url": {
+    "urls": [{"expanded_url": "http://craft-conf.com/2014/"}]
+  }
+},
+"profile_image_url": "http://pbs.twimg.com/profile_images/378800000824012775/97bb1d972974a336814f088a932add3f_normal.png"}]
