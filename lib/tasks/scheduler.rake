@@ -35,8 +35,7 @@ task :remind_users => environment do |t|
     # Users who have never been reminded or were reminded more than 3 months ago
     users = User.where("last_reminder_date >= :start_date", { start_date: 3.months.ago }) && User.where(:last_reminder_date => nil)
     users.each do |user|
-      upcoming_events = users.events.upcoming
-      UserMailer.events_reminder(user, upcoming_events).deliver if upcoming_events.any?
+      UserMailer.events_reminder(user).deliver
     end
   end
 end

@@ -20,5 +20,21 @@ describe UserMailer do
 
   describe ".events_reminder" do
     pending "Not sure how to get mandrill send_template to use ActionMailer"
+
+    it "doesn't email when user has no upcoming events" do
+      pending
+    end
+
+    it "emails when user has upcoming events" do
+      pending
+    end
+
+    it "emails the right content" do
+      pending
+    end
+
+    it "updates users's last_reminder_date" do
+      pending
+    end
   end
 end
