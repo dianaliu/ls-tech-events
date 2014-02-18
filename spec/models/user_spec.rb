@@ -57,4 +57,20 @@ describe User do
       expect(@user.events.upcoming.first.id).to eq(@event.id)
     end
   end
+
+  describe '.to_param' do
+    before :each do
+      @user = User.create(:email => 'lestrade@gmail.com', :password => 'bollocks')
+    end
+
+    it 'contains the model id' do
+      expect(@user.to_param).to start_with(@user.id.to_s)
+    end
+
+    it 'contains the model name, when available' do
+      @user.update_attribute(:name,  'greg')
+      expect(@user.to_param).to start_with(@user.id.to_s)
+      expect(@user.to_param).to include(@user.name)
+    end
+  end
 end
