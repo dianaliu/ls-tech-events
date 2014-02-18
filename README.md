@@ -9,4 +9,4 @@ For just the data, `curl http://ls-tech-events.herokuapp.com/events/export.json`
 ## Code Status
 [![Build Status](https://travis-ci.org/dianaliu/ls-tech-events.png?branch=master)](https://travis-ci.org/dianaliu/ls-tech-events)
 [![Dependency Status](https://gemnasium.com/dianaliu/ls-tech-events.png)](https://gemnasium.com/dianaliu/ls-tech-events)
-[![Coverage Status](https://coveralls.io/repos/dianaliu/ls-tech-events/badge.png)](https://coveralls.io/r/dianaliu/ls-tech-events)
+[![Coverage Status](https://coveralls.io/repos/dianaliu/ls-tech-events/badge.png?branch=master)](https://coveralls.io/r/dianaliu/ls-tech-events?branch=master)
