@@ -82,6 +82,10 @@ describe UsersController do
       request.env["HTTP_REFERER"] = root_path
     end
 
+    it 'requires user to be logged in' do
+      pending
+    end
+
     it 'should remove an event from a users list' do
       @user.events << @event
       expect(@user.events.count).to eq(1)
@@ -101,5 +105,13 @@ describe UsersController do
       expect(response.response_code).to be(302)
       expect(subject).to redirect_to(root_path)
     end
+  end
+
+  describe 'POST edit' do
+    pending
+  end
+
+  desbribe 'POST destroy' do
+    pending
   end
 end

@@ -1,4 +1,6 @@
 class UsersController < ApplicationController
+  before_action :require_login, only: [:edit, :update, :destroy]
+
   def new
     @user = User.new
   end
@@ -20,6 +22,7 @@ class UsersController < ApplicationController
   end
 
   def update
+    # TODO: only for current_user
     current_user.update_attributes(params[:user])
 
     event = Event.find(params[:user][:events][:id])
@@ -33,9 +36,12 @@ class UsersController < ApplicationController
 
   def edit
     # redirect_to :back
+    # redirect_back_or_to
+    # Only for current_user
   end
 
   def destroy
+    # only for current_user
   end
 
   private
