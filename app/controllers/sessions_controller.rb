@@ -1,5 +1,4 @@
 class SessionsController < ApplicationController
-
   def create
     user = login(session_params[:email], session_params[:password], session_params[:remember_me])
     if user
