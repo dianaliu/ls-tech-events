@@ -21,7 +21,7 @@
           <br />
         <%= link_to(event.name, event_path(event)) %></td>
       <td class="date"><%= event.formatted_start_and_end_date %></td>
-      <td class="description"><%= event.description %> (<%= link_to event.website_url %>)</td>
+      <td class="description"><%= event.description %> (<%= link_to event.website_url, event.website_url %>)</td>
       <td class="location"><%= event.location %></td>
     </tr>
     <% end %>
