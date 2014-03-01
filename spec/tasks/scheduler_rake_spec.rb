@@ -34,6 +34,8 @@ describe 'scheduler rake task' do
     end
 
     it 'should not email when not a Friday' do
+      Time.any_instance.stub(:friday?).and_return(false)
+
       expect(Twitter::REST::Client).to_not receive(:new)
       run_rake_task
     end
