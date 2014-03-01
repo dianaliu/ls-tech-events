@@ -27,7 +27,8 @@ gem 'turbolinks', '>= 2.2.1'
 gem 'jbuilder', '>= 2.0.2'
 
 # Access twitter client to retrieve list
-gem 'twitter'
+# Only >= 5.0 have the REST client
+gem 'twitter', '~> 5.0'
 
 # Use Foundation for styling
 gem 'foundation-rails'
@@ -51,7 +52,7 @@ group :development do
 end
 
 group :development, :test do
-  gem 'rspec-rails', '~> 3.0.0.beta'
+  gem 'rspec-rails', '~> 2.14'
   gem 'coveralls', require: false
 end
 
