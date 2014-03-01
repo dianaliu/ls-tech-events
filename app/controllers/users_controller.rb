@@ -34,7 +34,8 @@ class UsersController < ApplicationController
   end
 
   def destroy
-    # only for current_user
+    current_user.destroy
+    redirect_to root_url, :notice => 'You have deleted your account. Goodbye!'
   end
 
   private

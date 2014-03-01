@@ -27,10 +27,10 @@
     </fieldset>
     <% end %>
 
-    <%= form_for current_user, :method => :delete do |f| %>
+    <%= form_for current_user, :method => :delete do %>
     <fieldset>
       <legend>Delete my account</legend>
-      <%= f.submit "Delete my account*", :class => "button alert small" %>
+      <%= submit_tag "Delete my account*", :class => "button alert small" %>
       <span>&nbsp;* Can not be undone</span>
     </fieldset>
     <% end %>

@@ -135,7 +135,23 @@ describe UsersController do
     end
   end
 
-  describe 'POST destroy' do
-    pending
+  describe 'DELETE destroy' do
+    before :each do
+      subject.stub(:current_user) { @user }
+    end
+    it 'should delete a user' do
+      expect{ delete :destroy, { :id => @user.id } }.to change{ User.count }.from(1).to(0)
+    end
+
+    it 'should redirect to root' do
+      delete :destroy, { :id => @user.id }
+      expect{ subject }.to redirect_to(root_url)
+    end
+
+    it 'should display a notice' do
+      delete :destroy, { :id => @user.id }
+      expect(flash[:notice]).to_not be_nil
+      expect(flash[:notice]).to include('Goodbye')
+    end
   end
 end
