@@ -111,7 +111,7 @@ describe UsersController do
     pending
   end
 
-  desbribe 'POST destroy' do
+  describe 'POST destroy' do
     pending
   end
 end
