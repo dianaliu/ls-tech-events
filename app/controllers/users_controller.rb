@@ -23,6 +23,7 @@ class UsersController < ApplicationController
   end
 
   def update
+    current_user.update_attributes(update_user_params)
     redirect_to :back
   end
 
@@ -36,20 +37,17 @@ class UsersController < ApplicationController
     redirect_back_or_to root_url, :notice => "Subscribed: You will receive event reminders again."
   end
 
-  def edit
-    # redirect_to :back
-    # redirect_back_or_to
-    # Only for current_user
-  end
-
   def destroy
     # only for current_user
   end
 
   private
 
+  def update_user_params
+    params.require(:user).permit(:name, :email)
+  end
+
   def user_params
-    # params.require(:user).permit(:name, :email, :password, :events => [:id], :password_confirmation)
     params.require(:user).permit(:name, :email, :password, :password_confirmation)
   end
 end

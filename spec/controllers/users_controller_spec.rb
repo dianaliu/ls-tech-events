@@ -75,8 +75,26 @@ describe UsersController do
     end
   end
 
-  describe 'POST edit' do
-    pending
+  describe 'PUT or PATCH update' do
+    before :each do
+      subject.stub(:current_user) { @user }
+      request.env["HTTP_REFERER"] = root_path
+    end
+
+    it 'should change user name' do
+      put :update, { :id => @user.id, :user => { :name => 'The Earl' } }
+      expect(@user.name).to eq('The Earl')
+    end
+
+    it 'should change user email' do
+      put :update, { :id => @user.id, :user => { :email => 'earl@castle.com' } }
+      expect(@user.email).to eq('earl@castle.com')
+    end
+
+    it 'should not change user password' do
+      # Rspec compares strings as symbols so we must .to_s it again
+      expect{ put :update, { :id => @user.id, :user => { :password => 'lolhacked', :password_confirmation => 'lolhacked' } } }.to_not change{ @user.crypted_password.to_s }
+    end
   end
 
   describe 'POST destroy' do
