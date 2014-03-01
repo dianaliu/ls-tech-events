@@ -1,6 +1,5 @@
 class EventsController < ApplicationController
   def index
-    # Hm, do we still want this to be root
     @events = Event.all
     @user = User.new
   end
@@ -10,7 +9,15 @@ class EventsController < ApplicationController
   end
 
   def update
-    # TODO: Change what users follow an event
+    event = Event.find(params[:id])
+
+    if params[:commit].downcase == 'add'
+      event.users << current_user
+    elsif params[:commit].downcase == 'remove'
+      event.users.delete(current_user)
+    end
+
+    redirect_to :back
   end
 
   def export
@@ -19,15 +26,5 @@ class EventsController < ApplicationController
       format.json { render :json => @events.as_json }
       format.xml { render :xml => @events.as_json.to_xml }
     end
-  end
-
-  private
-
-  def event_params
-    # For a single resource
-  end
-
-  def events_params
-    # For a collection of events
   end
 end

@@ -23,25 +23,6 @@ class UsersController < ApplicationController
   end
 
   def update
-    # TODO: only for current_user
-    # current_user.update_attributes(params[:user])
-
-
-    # TODO: Move into events controller
-    # Receives a single id or an array of ids
-    # Must convert to an array of ints
-    event_ids = params[:user][:events][:id]
-    event_ids = event_ids.include?("[") ? event_ids[1..-2].split(', ') : [event_ids.to_i]
-
-    events = Event.find(event_ids)
-    events.each do |event|
-      if params[:user][:events][:add].to_i.zero?
-        current_user.events.delete(event)
-      else
-        current_user.events << event
-      end
-    end
-
     redirect_to :back
   end
 

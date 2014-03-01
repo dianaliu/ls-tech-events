@@ -1,20 +1,11 @@
-<% if current_user %>
-  <% if current_user.events.include?(@event) %>
-    <%= form_for current_user do |f| %>
-      <%= f.fields_for :events do |ef| %>
-        <%= ef.hidden_field :id, :value => @event.id , :readonly => true %>
-        <%= ef.check_box :add, :checked => false, :readonly => true %>
-      <% end %>
-      <%= f.submit "Remove", :class => "button small" %>
-    <% end %>
-
-  <% else %>
-    <%= form_for current_user do |f| %>
-      <%= f.fields_for :events do |ef| %>
-        <%= ef.hidden_field :id, :value => @event.id , :readonly => true %>
-        <%= ef.check_box :add, :checked => true, :readonly => true %>
-      <% end %>
-      <%= f.submit "Add", :class => "button small" %>
-    <% end %>
+<% if current_user.events.include?(@event) %>
+  <!-- Remove user from event -->
+  <%= form_for @event do |f| %>
+    <%= f.submit "Remove", :class => "button small" %>
+  <% end %>
+<% else %>
+<!-- Add user to event -->
+  <%= form_for @event do |f| %>
+    <%= f.submit "Add", :class => "button small" %>
   <% end %>
 <% end %>
