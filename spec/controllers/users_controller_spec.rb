@@ -97,6 +97,44 @@ describe UsersController do
     end
   end
 
+  describe 'POST toggle_subscribed' do
+    # TODO: Extract call to subject
+
+    before :each do
+      subject.stub(:current_user) { @user }
+      request.env["HTTP_REFERER"] = root_url
+    end
+
+    it 'should unsubscribe a user' do
+      expect{ post :toggle_subscribed }.to change{ @user.subscribed }.to be_false
+    end
+
+    it 'should subscribe a user' do
+      @user.update_attribute(:subscribed, false)
+      expect{ post :toggle_subscribed }.to change{ @user.subscribed }.to be_true
+    end
+
+    it 'should redirect back afterwards' do
+      post :toggle_subscribed
+      expect(subject).to redirect_to(root_url)
+    end
+
+    it 'should show a notice after subscribing' do
+      @user.update_attribute(:subscribed, false)
+      post :toggle_subscribed
+
+      expect(flash[:notice]).to_not be_nil
+      expect(flash[:notice]).to include('Subscribed')
+    end
+
+    it 'should show a notice after unsubscribing' do
+      post :toggle_subscribed
+
+      expect(flash[:notice]).to_not be_nil
+      expect(flash[:notice]).to include('Unsubscribed')
+    end
+  end
+
   describe 'POST destroy' do
     pending
   end

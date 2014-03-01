@@ -27,14 +27,10 @@ class UsersController < ApplicationController
     redirect_to :back
   end
 
-  def unsubscribe
-    current_user.unsubscribe_from_reminders
-    redirect_back_or_to root_url, :notice => "Unsubscribed: You will not receive any more event reminders."
-  end
-
-  def subscribe
-    current_user.subscribe_to_reminders
-    redirect_back_or_to root_url, :notice => "Subscribed: You will receive event reminders again."
+  def toggle_subscribed
+    current_user.toggle!(:subscribed)
+    notice = current_user.subscribed? ? "Subscribed: You will receive event reminders again." : "Unsubscribed: You will not receive any more event reminders."
+    redirect_to :back, :notice => notice
   end
 
   def destroy

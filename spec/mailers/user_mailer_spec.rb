@@ -26,6 +26,13 @@ describe UserMailer do
       @upcoming_event = Event.create(:twitter_handle => 'Lothlórien', :start_date => 2.months.from_now)
     end
 
+    it 'does not email users who are not subscribed' do
+      @user.update_attribute(:subscribed, false)
+      expect(Mandrill::API).to_not receive(:new)
+
+      UserMailer.events_reminder(@user).deliver
+    end
+
     it "does not email when user has no upcoming events" do
       expect(@user.events.upcoming).to be_empty
       expect(Mandrill::API).to_not receive(:new)

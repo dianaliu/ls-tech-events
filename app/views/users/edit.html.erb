@@ -15,16 +15,15 @@
     </fieldset>
     <% end %>
 
-    <%= form_for current_user do |f| %>
+    <%= form_tag toggle_subscribed_users_url do %>
     <fieldset>
-      <legend>Unsubscribe</legend>
-      <%= f.fields_for :events do |ef| %>
-        <%= ef.hidden_field :id, :value => current_user.events.collect(&:id) , :readonly => true %>
-        <!-- Not sure if this still gets sent. May need to remove hidden on checkbox -->
-        <%= ef.check_box :add, :checked => false, :readonly => true, :hidden => true %>
-      <% end %>
+      <legend><%= subscribed_text %></legend>
+      <% if current_user.subscribed? %>
       <p>Stop receiving emails. Your events will still be here.</p>
-      <%= f.submit "Unsubscribe", :class => "button small" %>
+      <% else %>
+      <p>Get email reminders a few months before your favorite conferences and hackathons begin.</p>
+      <% end %>
+      <%= submit_tag subscribed_text, :class => "button small" %>
     </fieldset>
     <% end %>
 

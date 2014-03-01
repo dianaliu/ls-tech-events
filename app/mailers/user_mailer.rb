@@ -9,6 +9,7 @@ class UserMailer < ActionMailer::Base
   end
 
   def events_reminder(user)
+    return false if !user.subscribed?
     return false if user.events.upcoming.empty?
 
     # Sort recent events on top. Nil dates are most recent.
