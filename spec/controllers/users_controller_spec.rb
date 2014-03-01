@@ -82,9 +82,7 @@ describe UsersController do
       request.env["HTTP_REFERER"] = root_path
     end
 
-    it 'requires user to be logged in' do
-      pending
-    end
+    it 'requires user to be logged in'
 
     it 'should remove an event from a users list' do
       @user.events << @event
