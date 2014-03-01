@@ -1,18 +1,40 @@
-<h1>Settings</h1>
+<div class="row">
+  <div class="small-10 small-centered columns">
+    <h1>Settings</h1>
 
-<%= form_for current_user do |f| %>
-  <%= f.label :name %>
-  <%= f.text_field :name, :value => current_user.name %>
+    <%= form_for current_user do |f| %>
+    <fieldset>
+      <legend>Profile</legend>
+      <%= f.label :name %>
+      <%= f.text_field :name, :value => current_user.name %>
 
-  <%= f.label :email %>
-  <%= f.text_field :email, :value => current_user.email, :readonly => true %>
+      <%= f.label :email %>
+      <%= f.text_field :email, :value => current_user.email, :disabled => true %>
 
-  <%= f.submit "Update", :class => "button tiny" %>
-<% end %>
+      <%= f.submit "Update", :class => "button small" %>
+    </fieldset>
+    <% end %>
 
-<hr />
+    <%= form_for current_user do |f| %>
+    <fieldset>
+      <legend>Unsubscribe</legend>
+      <%= f.fields_for :events do |ef| %>
+        <%= ef.hidden_field :id, :value => current_user.events.collect(&:id) , :readonly => true %>
+        <!-- Not sure if this still gets sent. May need to remove hidden on checkbox -->
+        <%= ef.check_box :add, :checked => false, :readonly => true, :hidden => true %>
+      <% end %>
+      <p>Stop receiving emails. Your events will still be here.</p>
+      <%= f.submit "Unsubscribe", :class => "button small" %>
+    </fieldset>
+    <% end %>
 
-<%= form_for current_user, :method => :delete do |f| %>
-  <%= f.submit "Delete my account*", :class => "button tiny alert" %>
-  <small>*Can not be undone</small>
-<% end %>
+    <%= form_for current_user, :method => :delete do |f| %>
+    <fieldset>
+      <legend>Delete my account</legend>
+      <%= f.submit "Delete my account*", :class => "button alert small" %>
+      <span>&nbsp;* Can not be undone</span>
+    </fieldset>
+    <% end %>
+
+  </div>
+</div>

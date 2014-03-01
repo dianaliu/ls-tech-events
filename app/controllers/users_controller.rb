@@ -1,4 +1,5 @@
 class UsersController < ApplicationController
+  # TODO: Does a redirect to root. Any way to modify behavior?
   before_action :require_login, only: [:edit, :update, :destroy]
 
   def new
@@ -23,15 +24,35 @@ class UsersController < ApplicationController
 
   def update
     # TODO: only for current_user
-    current_user.update_attributes(params[:user])
+    # current_user.update_attributes(params[:user])
 
-    event = Event.find(params[:user][:events][:id])
-    if params[:user][:events][:add].to_i.zero?
-      current_user.events.delete(event)
-    else
-      current_user.events << event
+
+    # TODO: Move into events controller
+    # Receives a single id or an array of ids
+    # Must convert to an array of ints
+    event_ids = params[:user][:events][:id]
+    event_ids = event_ids.include?("[") ? event_ids[1..-2].split(', ') : [event_ids.to_i]
+
+    events = Event.find(event_ids)
+    events.each do |event|
+      if params[:user][:events][:add].to_i.zero?
+        current_user.events.delete(event)
+      else
+        current_user.events << event
+      end
     end
+
     redirect_to :back
+  end
+
+  def unsubscribe
+    current_user.unsubscribe_from_reminders
+    redirect_back_or_to root_url, :notice => "Unsubscribed: You will not receive any more event reminders."
+  end
+
+  def subscribe
+    current_user.subscribe_to_reminders
+    redirect_back_or_to root_url, :notice => "Subscribed: You will receive event reminders again."
   end
 
   def edit
@@ -45,7 +66,9 @@ class UsersController < ApplicationController
   end
 
   private
+
   def user_params
+    # params.require(:user).permit(:name, :email, :password, :events => [:id], :password_confirmation)
     params.require(:user).permit(:name, :email, :password, :password_confirmation)
   end
 end

@@ -53,7 +53,7 @@ describe UserMailer do
     end
 
     it "emails the right content" do
-      @user.events << @upcoming_event
+      # @user.events << @upcoming_event
       # expect(@user.events.upcoming).to_not be_empty
 
       pending "Check the partial and Mandrill template"

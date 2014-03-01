@@ -19,4 +19,12 @@ class User < ActiveRecord::Base
   def name_or_email
     name.present? ? name : email
   end
+
+  def unsubscribe_from_reminders
+    update_attribute(:last_reminder_date, Float::INFINITY)
+  end
+
+  def subscribe_to_reminders
+    update_attribute(:last_reminder_date, nil)
+  end
 end
