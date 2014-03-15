@@ -30,9 +30,14 @@ class Event < ActiveRecord::Base
     start_date.present? && start_date < Date.today
   end
 
+  def self.upcoming_range
+    # Send reminders at the beginning of the month so
+    # Search through the end of each month to close gap
+    Date.today..3.months.from_now.end_of_month
+  end
+
   def is_upcoming?
-    range = Date.today..Date.today + 3.months
-    start_date.present? && range.cover?(start_date)
+    start_date.present? && Event.upcoming_range.cover?(start_date)
   end
 
   def set_dates(start_date, end_date=nil)

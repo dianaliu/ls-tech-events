@@ -55,6 +55,12 @@ describe Event do
     end
   end
 
+  describe '.upcoming_range' do
+    it 'returns a range from today to the end of 3 months from now' do
+      expect(Event.upcoming_range).to eq(Date.today..3.months.from_now.end_of_month)
+    end
+  end
+
   describe "#is_upcoming?" do
     it "returns false for a past event" do
       event = Event.create({ :name => "fall of the roman empire", :start_date => Date.today - 1538.years })
