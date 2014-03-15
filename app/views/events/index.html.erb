@@ -4,27 +4,24 @@
   <%= render :template => 'users/new' %>
 <% end %>
 
-<div id="events-list">
-
-  <div class="panel">
-    <div class="row">
-      <div class="small-3 columns">
-        <h3>Search Events:</h3>
-      </div>
-      <div class="small-9 columns">
-        <input type="text" class="search" placeholder="ruby, new york, ios">
-      </div>
+<div class="panel">
+  <div class="row">
+    <div class="small-3 columns">
+      <h3>Search Events:</h3>
     </div>
-
-    <ul class="inline-list">
-      <li><b>Key:</b></li>
-      <li><span class="upcoming-event">Next 3 months</span></li>
-      <li><span class="past-event">Already happened</span></li>
-    </ul>
+    <div class="small-9 columns">
+      <input type="text" class="search" placeholder="ruby, new york, ios">
+    </div>
   </div>
 
-  <%= render 'table' %>
-
+  <ul class="inline-list">
+    <li><b>Key:</b></li>
+    <li><span class="upcoming-event">Next 3 months</span></li>
+    <li><span class="past-event">Already happened</span></li>
+  </ul>
 </div>
+
+<%= render 'table' %>
+
 
 

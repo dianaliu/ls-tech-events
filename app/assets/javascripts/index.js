@@ -1,5 +1,10 @@
-var options = {
-  valueNames: ['name', 'location', 'description']
-};
+$(document).ready(initSortByColumn);
+$(document).on('page:load', initSortByColumn);
 
-var eventsList = new List('events-list', options);
+function initSortByColumn() {
+  var options = {
+    valueNames: ['name', 'location', 'description']
+  };
+
+  var eventsList = new List('events-list', options);
+}
